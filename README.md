@@ -1,3 +1,13 @@
 ![Whealbi Logo](https://www.whealbi.eu/wp-content/themes/whealbi/images/logo.png)
 # whealbiCode
 Custom source code, workflows and jupyter notebooks used in the analysis of the wheat genotypes sequenced in the Whealbi Project
+
+
+## ancestral_region_simulations/
+
+Code and data to simulate hexaploid wheat ancestral region of origin ; used for figure4B.
+
+## monophyly_permutation/
+
+Code and data for the permutation tests to test the grouping of three character : continent of origin, growth habit, and historical group.
+
