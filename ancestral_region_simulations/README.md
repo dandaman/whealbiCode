@@ -4,7 +4,7 @@ Code and data to simulate hexaploid wheat ancestral region of origin .
 The results of these simulations have been used to build Figure 2B.
 
 
-## Figures and Tables
+## Basis for Figures and Tables
 * Figure 2B
 
 ## Workflow

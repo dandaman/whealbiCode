@@ -1,7 +1,7 @@
 # Geographical components of the panel structure (Figure 2A)
 Code and data for the permutation tests to test the grouping of three character : continent of origin, growth habit, and historical group.
 
-## Figures and Tables
+## Basis for Figures and Tables
 * Figure 2A
 
 ## Workflow

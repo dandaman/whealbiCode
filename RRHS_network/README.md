@@ -2,7 +2,7 @@
 
 Author: [Daniel Lang](Daniel.Lang@helmholtz-muenchen.de)
 
-## Figures and Tables
+## Basis for Figures and Tables
 * Figure 4
 * Figure S10
 * Figure S11
