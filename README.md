@@ -4,14 +4,7 @@ Custom source code, workflows and jupyter notebooks used in the analysis of the 
 
 # Analysis Workflow
 1. Raw Data Processing and Variant Calling
-2. Studying the Phylogeny and Reticulate Evolution of the Wheat Species Complex using Repeated Random Haplotype Sampling (RRHS)
-3. Inference of Hybridization and Introgression Events using ABBA-BABBA
-
-## ancestral_region_simulations/
-
-Code and data to simulate hexaploid wheat ancestral region of origin ; used for figure4B.
-
-## monophyly_permutation/
-
-Code and data for the permutation tests to test the grouping of three character : continent of origin, growth habit, and historical group.
-
+2. [Geographical components of the panel structure (Figure 2A)](monophyly_permutation/)
+3. [Geographical components of the panel structure (Figure 2B)](ancestral_region_simulations/)
+4. [Studying the Phylogeny and Reticulate Evolution of the Wheat Species Complex using Repeated Random Haplotype Sampling (RRHS; Figure 4)](RRHS_network/)
+5. [Inference of Hybridization and Introgression Events using ABBA-BABBA](ABBA-BABBA/)
