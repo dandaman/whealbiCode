@@ -1,0 +1,513 @@
+SERIAL;Origin;COUNTRY;CONTINENT;REGION
+WW252;Turkey;Turkey;Asia;Fertile Crescent
+WW253;Turkey;Turkey;Asia;Fertile Crescent
+WW263;Lebanon;Lebanon;Asia;Fertile Crescent
+WW254;Turkey;Turkey;Asia;Fertile Crescent
+WW255;Italy;Italy;Europe;Southern Europe
+WW249;Lebanon;Lebanon;Asia;Fertile Crescent
+WW250;Iran;Iran;Asia;Fertile Crescent
+WW251;Turkey;Turkey;Asia;Fertile Crescent
+WW178;USA;USA;Americas;North America
+WW179;Israel;Israel;Asia;Fertile Crescent
+WW180;Israel;Israel;Asia;Fertile Crescent
+WW181;Israel;Israel;Asia;Fertile Crescent
+WW182;Israel;Israel;Asia;Fertile Crescent
+WW198;Turkey;Turkey;Asia;Fertile Crescent
+WW200;Turkey;Turkey;Asia;Fertile Crescent
+WW201;Turkey;Turkey;Asia;Fertile Crescent
+WW202;Turkey;Turkey;Asia;Fertile Crescent
+WW203;Turkey;Turkey;Asia;Fertile Crescent
+WW204;Turkey;Turkey;Asia;Fertile Crescent
+WW205;Turkey;Turkey;Asia;Fertile Crescent
+WW245;France;France;Europe;Western Europe
+WW257;Lebanon;Lebanon;Asia;Fertile Crescent
+WW258;Turkey;Turkey;Asia;Fertile Crescent
+WW260;Iraq;Iraq;Asia;Fertile Crescent
+WW261;Iran;Iran;Asia;Fertile Crescent
+WW262;Italy;Italy;Europe;Southern Europe
+WW264;Iran;Iran;Asia;Fertile Crescent
+WW265;Spain;Spain;Europe;Southern Europe
+WW267;Romania;Romania;Europe;Central Europe
+WW268;Turkey;Turkey;Asia;Fertile Crescent
+WW243;Ethiopia;Ethiopia;Africa;Subsaharan Africa
+WW244;Russia;Russia;Asia;Northern Asia
+WW001;France;France;Europe;Western Europe
+WW002;France;France;Europe;Western Europe
+WW003;France;France;Europe;Western Europe
+WW004;France;France;Europe;Western Europe
+WW005;France;France;Europe;Western Europe
+WW006;France;France;Europe;Western Europe
+WW007;France;France;Europe;Western Europe
+WW008;France;France;Europe;Western Europe
+WW009;Germany;Germany;Europe;Western Europe
+WW010;Germany;Germany;Europe;Western Europe
+WW011;Germany;Germany;Europe;Western Europe
+WW012;Germany;Germany;Europe;Western Europe
+WW013;Germany;Germany;Europe;Western Europe
+WW014;Germany;Germany;Europe;Western Europe
+WW015;Germany;Germany;Europe;Western Europe
+WW016;Germany;Germany;Europe;Western Europe
+WW017;Germany;Germany;Europe;Western Europe
+WW018;Germany;Germany;Europe;Western Europe
+WW019;Italy;Italy;Europe;Southern Europe
+WW020;Italy;Italy;Europe;Southern Europe
+WW021;Italy;Italy;Europe;Southern Europe
+WW022;Italy;Italy;Europe;Southern Europe
+WW023;Hungary;Hungary;Europe;Central Europe
+WW024;Hungary;Hungary;Europe;Central Europe
+WW025;Hungary;Hungary;Europe;Central Europe
+WW026;Hungary;Hungary;Europe;Central Europe
+WW027;Hungary;Hungary;Europe;Central Europe
+WW028;Hungary;Hungary;Europe;Central Europe
+WW029;Japan;Japan;Asia;Eastern Asia
+WW030;United Kingdom;United Kingdom;Europe;Western Europe
+WW031;United Kingdom;United Kingdom;Europe;Western Europe
+WW032;United Kingdom;United Kingdom;Europe;Western Europe
+WW033;United Kingdom;United Kingdom;Europe;Western Europe
+WW034;United Kingdom;United Kingdom;Europe;Western Europe
+WW035;United Kingdom;United Kingdom;Europe;Western Europe
+WW036;DE/DK;DE/DK;Europe;Western Europe
+WW037;France;France;Europe;Western Europe
+WW038;Germany;Germany;Europe;Western Europe
+WW039;DE/CZ/PL;DE/CZ/PL;Europe;Central Europe
+WW040;F/PL;F/PL;Europe;UNK
+WW041;France;France;Europe;Western Europe
+WW042;Germany;Germany;Europe;Western Europe
+WW043;DE/F/DK;DE/F/DK;Europe;Western Europe
+WW044;DE/F/DK;DE/F/DK;Europe;Western Europe
+WW045;Germany;Germany;Europe;Western Europe
+WW046;France;France;Europe;Western Europe
+WW047;France;France;Europe;Western Europe
+WW048;United Kingdom;United Kingdom;Europe;Western Europe
+WW049;United Kingdom;United Kingdom;Europe;Western Europe
+WW050;United Kingdom;United Kingdom;Europe;Western Europe
+WW051;United Kingdom;United Kingdom;Europe;Western Europe
+WW052;United Kingdom;United Kingdom;Europe;Western Europe
+WW053;United Kingdom;United Kingdom;Europe;Western Europe
+WW054;France;France;Europe;Western Europe
+WW055;United Kingdom;United Kingdom;Europe;Western Europe
+WW056;United Kingdom;United Kingdom;Europe;Western Europe
+WW057;France;France;Europe;Western Europe
+WW058;France;France;Europe;Western Europe
+WW059;United Kingdom;United Kingdom;Europe;Western Europe
+WW060;Germany;Germany;Europe;Western Europe
+WW061;France;France;Europe;Western Europe
+WW062;France;France;Europe;Western Europe
+WW063;Germany;Germany;Europe;Western Europe
+WW064;Russia;Russia;Asia;Northern Asia
+WW065;Germany;Germany;Europe;Western Europe
+WW066;;NA;NA;UNK
+WW067;Italy;Italy;Europe;Southern Europe
+WW068;France;France;Europe;Western Europe
+WW069;France;France;Europe;Western Europe
+WW070;France;France;Europe;Western Europe
+WW071;France;France;Europe;Western Europe
+WW072;Bulgaria;Bulgaria;Europe;Central Europe
+WW073;Italy;Italy;Europe;Southern Europe
+WW074;Japan;Japan;Asia;Eastern Asia
+WW075;South Korea;South Korea;Asia;Eastern Asia
+WW076;North Korea;North Korea;Asia;Eastern Asia
+WW077;Yugoslavia;Yugoslavia;Europe;Central Europe
+WW078;Albania;Albania;Europe;Central Europe
+WW079;Japan;Japan;Asia;Eastern Asia
+WW080;USA;USA;Americas;North America
+WW081;China;China;Asia;Eastern Asia
+WW082;Yugoslavia;Yugoslavia;Europe;Central Europe
+WW083;Japan;Japan;Asia;Eastern Asia
+WW084;China;China;Asia;Eastern Asia
+WW085;Egypt;Egypt;Africa;Northern Africa
+WW086;United Kingdom;United Kingdom;Europe;Western Europe
+WW087;Hungary;Hungary;Europe;Central Europe
+WW088;Hungary;Hungary;Europe;Central Europe
+WW089;Hungary;Hungary;Europe;Central Europe
+WW090;Romania;Romania;Europe;Central Europe
+WW091;USA;USA;Americas;North America
+WW092;USA;USA;Americas;North America
+WW093;USA;USA;Americas;North America
+WW094;Germany;Germany;Europe;Western Europe
+WW095;China;China;Asia;Eastern Asia
+WW096;Ukraine;Ukraine;Europe;Central Europe
+WW097;USA;USA;Americas;North America
+WW098;Germany;Germany;Europe;Western Europe
+WW099;Germany;Germany;Europe;Western Europe
+WW100;Germany;Germany;Europe;Western Europe
+WW101;Germany;Germany;Europe;Western Europe
+WW102;Germany;Germany;Europe;Western Europe
+WW103;The Netherlands;The Netherlands;Europe;Western Europe
+WW104;Pakistan;Pakistan;Asia;Central Asia
+WW105;;NA;NA;UNK
+WW106;Germany;Germany;Europe;Western Europe
+WW107;Germany;Germany;Europe;Western Europe
+WW108;USA;USA;Americas;North America
+WW109;Pakistan;Pakistan;Asia;Central Asia
+WW110;Sweden;Sweden;Europe;Western Europe
+WW111;Albania;Albania;Europe;Central Europe
+WW112;Poland;Poland;Europe;Central Europe
+WW113;South Africa;South Africa;Africa;Subsaharan Africa
+WW114;Greece;Greece;Europe;Southern Europe
+WW115;Germany;Germany;Europe;Western Europe
+WW116;Germany;Germany;Europe;Western Europe
+WW117;Germany;Germany;Europe;Western Europe
+WW118;Germany;Germany;Europe;Western Europe
+WW119;former Soviet Union;former Soviet Union;NA;UNK
+WW120;Sweden;Sweden;Europe;Western Europe
+WW121;Germany;Germany;Europe;Western Europe
+WW122;Germany;Germany;Europe;Western Europe
+WW123;Latvia;Latvia;Europe;Central Europe
+WW124;Sweden;Sweden;Europe;Western Europe
+WW125;Spain;Spain;Europe;Southern Europe
+WW126;Albania;Albania;Europe;Central Europe
+WW127;Albania;Albania;Europe;Central Europe
+WW128;Greece;Greece;Europe;Southern Europe
+WW129;Greece;Greece;Europe;Southern Europe
+WW130;Greece;Greece;Europe;Southern Europe
+WW131;Italy;Italy;Europe;Southern Europe
+WW132;Italy;Italy;Europe;Southern Europe
+WW133;Italy;Italy;Europe;Southern Europe
+WW134;Italy;Italy;Europe;Southern Europe
+WW135;Italy;Italy;Europe;Southern Europe
+WW136;Italy;Italy;Europe;Southern Europe
+WW137;Italy;Italy;Europe;Southern Europe
+WW138;Nepal;Nepal;Asia;Indian Peninsula
+WW139;Nepal;Nepal;Asia;Indian Peninsula
+WW140;Nepal;Nepal;Asia;Indian Peninsula
+WW141;Nepal;Nepal;Asia;Indian Peninsula
+WW142;Nepal;Nepal;Asia;Indian Peninsula
+WW143;Poland;Poland;Europe;Central Europe
+WW144;Poland;Poland;Europe;Central Europe
+WW145;Poland;Poland;Europe;Central Europe
+WW146;India;India;Europe;Indian Peninsula
+WW147;India;India;Europe;Indian Peninsula
+WW148;Germany;Germany;Europe;Western Europe
+WW149;Germany;Germany;Europe;Western Europe
+WW150;Germany;Germany;Europe;Western Europe
+WW151;France;France;Europe;Western Europe
+WW152;France;France;Europe;Western Europe
+WW153;Denmark?;Denmark;Europe;Western Europe
+WW154;France;France;Europe;Western Europe
+WW155;United Kingdom ?;United Kingdom;Europe;Western Europe
+WW156;United Kingdom;United Kingdom;Europe;Western Europe
+WW157;France;France;Europe;Western Europe
+WW158;Germany;Germany;Europe;Western Europe
+WW159;;NA;NA;UNK
+WW160;Germany;Germany;Europe;Western Europe
+WW161;France;France;Europe;Western Europe
+WW162;France;France;Europe;Western Europe
+WW163;Denmark;Denmark;Europe;Western Europe
+WW164;France;France;Europe;Western Europe
+WW165;Denmark?;Denmark;Europe;Western Europe
+WW166;Germany;Germany;Europe;Western Europe
+WW167;France;France;Europe;Western Europe
+WW168;Germany;Germany;Europe;Western Europe
+WW169;Germany;Germany;Europe;Western Europe
+WW170;;NA;NA;UNK
+WW171;;NA;NA;UNK
+WW172;Israel;Israel;Asia;Fertile Crescent
+WW173;Israel;Israel;Asia;Fertile Crescent
+WW174;Israel;Israel;Asia;Fertile Crescent
+WW175;Israel;Israel;Asia;Fertile Crescent
+WW176;Israel;Israel;Asia;Fertile Crescent
+WW177;Israel;Israel;Asia;Fertile Crescent
+WW183;Turkey;Turkey;Asia;Fertile Crescent
+WW184;Turkey;Turkey;Asia;Fertile Crescent
+WW185;Turkey;Turkey;Asia;Fertile Crescent
+WW186;Turkey;Turkey;Asia;Fertile Crescent
+WW187;China;China;Asia;Eastern Asia
+WW188;Bulgaria;Bulgaria;Europe;Central Europe
+WW189;Bulgaria;Bulgaria;Europe;Central Europe
+WW190;Turkey;Turkey;Asia;Fertile Crescent
+WW191;Turkey;Turkey;Asia;Fertile Crescent
+WW192;Turkey;Turkey;Asia;Fertile Crescent
+WW193;Bulgaria;Bulgaria;Europe;Central Europe
+WW194;Turkey;Turkey;Asia;Fertile Crescent
+WW195;Turkey;Turkey;Asia;Fertile Crescent
+WW196;Turkey;Turkey;Asia;Fertile Crescent
+WW197;Iran;Iran;Asia;Fertile Crescent
+WW199;Iran;Iran;Asia;Fertile Crescent
+WW206;Iran;Iran;Asia;Fertile Crescent
+WW207;Afghanistan;Afghanistan;Asia;Central Asia
+WW208;Afghanistan;Afghanistan;Asia;Central Asia
+WW209;Afghanistan;Afghanistan;Asia;Central Asia
+WW210;Azerbaijan;Azerbaijan;Asia;Central Asia
+WW211;Armenia;Armenia;Asia;Central Asia
+WW212;Turkmenia;Turkmenia;Asia;Central Asia
+WW213;Russia;Russia;Asia;Northern Asia
+WW214;Azerbaijan;Azerbaijan;Asia;Central Asia
+WW215;Pakistan;Pakistan;Asia;Central Asia
+WW216;Russia;Russia;Asia;Northern Asia
+WW217;Turkmenia;Turkmenia;Asia;Central Asia
+WW218;Pakistan;Pakistan;Asia;Central Asia
+WW219;Turkey;Turkey;Asia;Fertile Crescent
+WW220;Turkey;Turkey;Asia;Fertile Crescent
+WW221;Turkey;Turkey;Asia;Fertile Crescent
+WW222;Azerbaijan;Azerbaijan;Asia;Central Asia
+WW223;Iran;Iran;Asia;Fertile Crescent
+WW224;Iran;Iran;Asia;Fertile Crescent
+WW225;Iran;Iran;Asia;Fertile Crescent
+WW226;Armenia;Armenia;Asia;Central Asia
+WW227;Spain;Spain;Europe;Southern Europe
+WW228;Tajikistan;Tajikistan;Asia;Central Asia
+WW240;Spain;Spain;Europe;SPELTA
+WW270;Iran;Iran;Asia;Fertile Crescent
+WW271;Germany;Germany;Europe;SPELTA
+WW275;Bulgaria;Bulgaria;Europe;Central Europe
+WW276;France;France;Europe;Western Europe
+WW277;France;France;Europe;Western Europe
+WW278;France;France;Europe;Western Europe
+WW279;France;France;Europe;Western Europe
+WW280;USA;USA;Americas;North America
+WW281;Bulgaria;Bulgaria;Europe;Central Europe
+WW282;Switzerland;Switzerland;Europe;Western Europe
+WW283;Kenia;Kenia;Africa;Subsaharan Africa
+WW284;Colombia;Colombia;Americas;South America
+WW285;New Zealand;New Zealand;Oceania;Oceania
+WW286;Germany;Germany;Europe;Western Europe
+WW287;Austria;Austria;Europe;Western Europe
+WW288;Tunesia;Tunesia;Africa;Northern Africa
+WW289;Mexico;Mexico;Americas;North America
+WW290;Austria;Austria;MAGIC;Western Europe
+WW291;Switzerland;Switzerland;MAGIC;Western Europe
+WW292;South Africa;South Africa;MAGIC;Subsaharan Africa
+WW293;France;France;MAGIC;Western Europe
+WW294;Mexico;Mexico;MAGIC;North America
+WW295;Canada;Canada;MAGIC;North America
+WW296;France;France;MAGIC;Western Europe
+WW297;Bulgaria;Bulgaria;MAGIC;Central Europe
+WW298;USA;USA;MAGIC;North America
+WW299;Israel;Israel;MAGIC;Fertile Crescent
+WW300;Japan;Japan;MAGIC;Eastern Asia
+WW301;Mexico;Mexico;MAGIC;North America
+WW302;Belgium;Belgium;MAGIC;Western Europe
+WW303;Canada;Canada;MAGIC;North America
+WW304;Spain;Spain;MAGIC;Southern Europe
+WW305;France;France;MAGIC;Western Europe
+WW306;France;France;MAGIC;Western Europe
+WW307;Ukraine;Ukraine;MAGIC;Central Europe
+WW308;Russia;Russia;Asia;Northern Asia
+WW309;China;China;MAGIC;Eastern Asia
+WW310;Switzerland;Switzerland;MAGIC;Western Europe
+WW311;Bulgaria;Bulgaria;MAGIC;Central Europe
+WW312;Egypt;Egypt;MAGIC;Northern Africa
+WW313;The Netherlands;The Netherlands;MAGIC;Western Europe
+WW314;Bulgaria;Bulgaria;MAGIC;Central Europe
+WW315;Afghanistan;Afghanistan;MAGIC;Central Asia
+WW316;Austria;Austria;MAGIC;Western Europe
+WW317;Germany;Germany;MAGIC;Western Europe
+WW318;China;China;MAGIC;Eastern Asia
+WW319;France;France;MAGIC;Western Europe
+WW320;United Kingdom;United Kingdom;MAGIC;Western Europe
+WW321;France;France;MAGIC;Western Europe
+WW322;United Kingdom;United Kingdom;MAGIC;Western Europe
+WW323;France;France;MAGIC;Western Europe
+WW324;Austria;Austria;MAGIC;Western Europe
+WW325;Algeria;Algeria;MAGIC;Northern Africa
+WW326;Italy;Italy;MAGIC;Southern Europe
+WW327;Yugoslavia;Yugoslavia;MAGIC;Central Europe
+WW328;France;France;MAGIC;Western Europe
+WW329;France;France;MAGIC;Western Europe
+WW330;Hungary;Hungary;MAGIC;Central Europe
+WW331;Finland;Finland;MAGIC;Central Europe
+WW332;Sweden;Sweden;MAGIC;Western Europe
+WW333;Switzerland;Switzerland;MAGIC;Western Europe
+WW334;Poland;Poland;MAGIC;Central Europe
+WW335;USA;USA;MAGIC;North America
+WW336;Tunesia;Tunesia;MAGIC;Northern Africa
+WW337;Tunesia;Tunesia;MAGIC;Northern Africa
+WW338;Spain;Spain;MAGIC;Southern Europe
+WW339;Romania;Romania;MAGIC;Central Europe
+WW340;France;France;MAGIC;Western Europe
+WW341;Turkey;Turkey;MAGIC;Fertile Crescent
+WW342;United Kingdom;United Kingdom;MAGIC;Western Europe
+WW343;Brazil;Brazil;MAGIC;South America
+WW344;France;France;MAGIC;Western Europe
+WW345;Poland;Poland;MAGIC;Central Europe
+WW346;Czechia;Czechia;MAGIC;Central Europe
+WW347;Czechia;Czechia;MAGIC;Central Europe
+WW348;Poland;Poland;MAGIC;Central Europe
+WW349;Czechia;Czechia;MAGIC;Central Europe
+WW350;Ukraine;Ukraine;MAGIC;Central Europe
+WW351;France;France;MAGIC;Western Europe
+WW352;Croatia;Croatia;MAGIC;Central Europe
+WW353;Spain;Spain;MAGIC;Southern Europe
+WW354;Uruguay;Uruguay;MAGIC;South America
+WW355;Russia;Russia;Asia;Northern Asia
+WW356;Romania;Romania;MAGIC;Central Europe
+WW357;USA;USA;MAGIC;North America
+WW358;Japan;Japan;Asia;Eastern Asia
+WW359;Greece;Greece;Europe;Southern Europe
+WW360;Greece;Greece;Europe;Southern Europe
+WW361;Australia;Australia;Oceania;Oceania
+WW362;Hungary;Hungary;Europe;Central Europe
+WW363;Hungary;Hungary;Europe;Central Europe
+WW364;Italy;Italy;Europe;Southern Europe
+WW365;Russia;Russia;Asia;Northern Asia
+WW366;Australia;Australia;Oceania;Oceania
+WW367;Israel;Israel;Asia;Fertile Crescent
+WW368;Spain;Spain;Europe;Southern Europe
+WW369;France;France;Europe;Western Europe
+WW370;Ethiopia;Ethiopia;Africa;Subsaharan Africa
+WW371;Brazil;Brazil;Americas;South America
+WW372;Syria;Syria;Asia;Fertile Crescent
+WW373;Hungary;Hungary;Europe;Central Europe
+WW374;Finland;Finland;MAGIC;Central Europe
+WW375;Belgium;Belgium;MAGIC;Western Europe
+WW376;Kenia;Kenia;MAGIC;Subsaharan Africa
+WW377;Turkey;Turkey;MAGIC;Fertile Crescent
+WW378;Sweden;Sweden;MAGIC;Western Europe
+WW379;Denmark;Denmark;MAGIC;Western Europe
+WW380;United Kingdom;United Kingdom;MAGIC;Western Europe
+WW381;Poland;Poland;MAGIC;Central Europe
+WW382;Finland;Finland;MAGIC;Central Europe
+WW383;Argentina;Argentina;MAGIC;South America
+WW384;Israel;Israel;MAGIC;Fertile Crescent
+WW385;Poland;Poland;MAGIC;Central Europe
+WW386;Sweden;Sweden;MAGIC;Western Europe
+WW387;United Kingdom;United Kingdom;MAGIC;Western Europe
+WW388;Hungary;Hungary;MAGIC;Central Europe
+WW389;Poland;Poland;MAGIC;Central Europe
+WW390;Spain;Spain;MAGIC;Southern Europe
+WW391;The Netherlands;The Netherlands;MAGIC;Western Europe
+WW392;France;France;MAGIC;Western Europe
+WW393;Lebanon;Lebanon;MAGIC;Fertile Crescent
+WW394;Portugal;Portugal;MAGIC;Southern Europe
+WW395;Hungary;Hungary;MAGIC;Central Europe
+WW396;Israel;Israel;MAGIC;Fertile Crescent
+WW397;Nepal;Nepal;MAGIC;Indian Peninsula
+WW398;China;China;MAGIC;Eastern Asia
+WW399;New Zealand;New Zealand;MAGIC;Oceania
+WW400;Syria;Syria;MAGIC;Fertile Crescent
+WW401;Portugal;Portugal;MAGIC;Southern Europe
+WW402;Portugal;Portugal;MAGIC;Southern Europe
+WW403;Ukraine;Ukraine;MAGIC;Central Europe
+WW404;Bulgaria;Bulgaria;MAGIC;Central Europe
+WW405;Germany;Germany;MAGIC;Western Europe
+WW406;Italy;Italy;MAGIC;Southern Europe
+WW407;Russia;Russia;Asia;Northern Asia
+WW408;Spain;Spain;MAGIC;Southern Europe
+WW409;Austria;Austria;MAGIC;Western Europe
+WW410;Argentina;Argentina;MAGIC;South America
+WW411;Portugal;Portugal;MAGIC;Southern Europe
+WW412;The Netherlands;The Netherlands;MAGIC;Western Europe
+WW413;Canada;Canada;MAGIC;North America
+WW414;Nepal;Nepal;MAGIC;Indian Peninsula
+WW415;Switzerland;Switzerland;MAGIC;Western Europe
+WW416;Zimbabwe;Zimbabwe;MAGIC;Subsaharan Africa
+WW417;Korea;Korea;MAGIC;Eastern Asia
+WW418;Spain;Spain;MAGIC;Southern Europe
+WW419;Germany;Germany;MAGIC;Western Europe
+WW420;Algeria;Algeria;MAGIC;Northern Africa
+WW421;Finland;Finland;MAGIC;Central Europe
+WW422;Spain;Spain;MAGIC;Southern Europe
+WW423;Spain;Spain;MAGIC;Southern Europe
+WW424;Romania;Romania;MAGIC;Central Europe
+WW425;Finland;Finland;MAGIC;Central Europe
+WW426;France;France;MAGIC;Western Europe
+WW427;New Zealand;New Zealand;MAGIC;Oceania
+WW428;Canada;Canada;MAGIC;North America
+WW429;Canada;Canada;MAGIC;North America
+WW430;Spain;Spain;MAGIC;Southern Europe
+WW431;Syria;Syria;MAGIC;Fertile Crescent
+WW432;Syria;Syria;MAGIC;Fertile Crescent
+WW433;Niger;Niger;MAGIC;Subsaharan Africa
+WW434;Germany;Germany;MAGIC;Western Europe
+WW435;Zimbabwe;Zimbabwe;MAGIC;Subsaharan Africa
+WW436;Finland;Finland;MAGIC;Central Europe
+WW437;Austria;Austria;MAGIC;Western Europe
+WW438;Belgium;Belgium;MAGIC;Western Europe
+WW439;Czechia;Czechia;MAGIC;Central Europe
+WW440;Germany;Germany;MAGIC;Western Europe
+WW441;Hungary;Hungary;MAGIC;Central Europe
+WW442;France;France;MAGIC;Western Europe
+WW443;France;France;MAGIC;Western Europe
+WW444;Turkey;Turkey;MAGIC;Fertile Crescent
+WW445;Turkey;Turkey;MAGIC;Fertile Crescent
+WW446;The Netherlands;The Netherlands;MAGIC;Western Europe
+WW447;Czechia;Czechia;MAGIC;Central Europe
+WW448;Czechia;Czechia;MAGIC;Central Europe
+WW449;Ukraine;Ukraine;MAGIC;Central Europe
+WW450;United Kingdom;United Kingdom;MAGIC;Western Europe
+WW451;The Netherlands;The Netherlands;MAGIC;Western Europe
+WW452;Armenia;Armenia;Asia;Central Asia
+WW453;Turkey;Turkey;MAGIC;Fertile Crescent
+WW454;Turkey;Turkey;MAGIC;Fertile Crescent
+WW455;Morocco;Morocco;MAGIC;Northern Africa
+WW456;Ethiopia;Ethiopia;MAGIC;Subsaharan Africa
+WW457;India;India;MAGIC;Indian Peninsula
+WW458;India;India;MAGIC;Indian Peninsula
+WW459;Russia;Russia;Asia;Northern Asia
+WW460;Tajikistan;Tajikistan;MAGIC;Central Asia
+WW461;Tajikistan;Tajikistan;MAGIC;Central Asia
+WW462;Georgia;Georgia;Asia;Central Asia
+WW463;Pakistan;Pakistan;MAGIC;Central Asia
+WW464;Russia;Russia;Asia;Northern Asia
+WW465;Russia;Russia;Asia;Northern Asia
+WW466;Ukraine;Ukraine;MAGIC;Central Europe
+WW467;Turkey;Turkey;MAGIC;Fertile Crescent
+WW468;Switzerland;Switzerland;MAGIC;Western Europe
+WW469;Pakistan;Pakistan;MAGIC;Central Asia
+WW470;Russia;Russia;Asia;Northern Asia
+WW471;Israel;Israel;Asia;Fertile Crescent
+WW472;Israel;Israel;Asia;Fertile Crescent
+WW473;Turkmenia;Turkmenia;Asia;Central Asia
+WW474;Azerbaijan;Azerbaijan;Asia;Central Asia
+WW475;Italy;Italy;Europe;Southern Europe
+WW476;China;China;Asia;Eastern Asia
+WW477;Nepal;Nepal;Asia;Indian Peninsula
+WW478;Mexico;Mexico;Americas;North America
+WW479;Nepal;Nepal;Asia;Indian Peninsula
+WW480;Nepal;Nepal;Asia;Indian Peninsula
+WW481;USA;USA;Americas;North America
+WW482;Australia;Australia;Oceania;Oceania
+WW483;Nepal;Nepal;Asia;Indian Peninsula
+WW484;Mexico;Mexico;Americas;North America
+WW485;Japan;Japan;Asia;Eastern Asia
+WW486;Mexico;Mexico;Americas;North America
+WW487;India;India;Asia;Indian Peninsula
+WW488;China;China;Asia;Eastern Asia
+WW489;China;China;Asia;Eastern Asia
+WW490;Tajikistan;Tajikistan;Asia;Central Asia
+WW491;Russia;Russia;Asia;Northern Asia
+WW492;France;France;Europe;Western Europe
+WW493;Morocco;Morocco;Africa;Northern Africa
+WW494;Syria;Syria;Asia;Fertile Crescent
+WW495;India;India;Asia;Indian Peninsula
+WW496;India;India;Asia;Indian Peninsula
+WW497;India;India;Asia;Indian Peninsula
+WW498;Greece;Greece;Europe;Southern Europe
+WW499;China;China;Asia;Eastern Asia
+WW500;United Kingdom;United Kingdom;Europe;Western Europe
+WW501;India;India;Asia;Indian Peninsula
+WW502;China;China;Asia;Eastern Asia
+WW503;Afghanistan;Afghanistan;Asia;Central Asia
+WW504;Poland;Poland;Europe;Central Europe
+WW505;Greece;Greece;Europe;Southern Europe
+WW506;Greece;Greece;Europe;Southern Europe
+WW507;Turkey;Turkey;Asia;Fertile Crescent
+WW508;India;India;Asia;Indian Peninsula
+WW509;USSR;USSR;NA;UNK
+WW510;Algeria;Algeria;Africa;Northern Africa
+WW511;USSR;USSR;NA;UNK
+WW512;Italy;Italy;Europe;Southern Europe
+WW241;China;China;Asia;SPHAEROCOCCUM
+WW247;Turkmenia;Turkmenia;Asia;Central Asia
+WW229;Syria;Syria;Asia;Fertile Crescent
+WW230;Iraq;Iraq;Asia;Fertile Crescent
+WW231;Turkey;Turkey;Asia;Fertile Crescent
+WW232;Iraq;Iraq;Asia;Fertile Crescent
+WW233;Iraq;Iraq;Asia;Fertile Crescent
+WW234;Iraq;Iraq;Asia;Fertile Crescent
+WW235;Turkey;Turkey;Asia;Fertile Crescent
+WW236;Turkey;Turkey;Asia;Fertile Crescent
+WW237;Turkey;Turkey;Asia;Fertile Crescent
+WW238;Turkey;Turkey;Asia;Fertile Crescent
+WW239;Turkey;Turkey;Asia;Fertile Crescent
+WW256;former Soviet Union;former Soviet Union;NA;UNK
+WW269;former Soviet Union;former Soviet Union;NA;UNK
+WW242;Georgia;Georgia;Asia;Central Asia
+WW272;Turkey;Turkey;Asia;Fertile Crescent
+WW274;Turkey;Turkey;Asia;Fertile Crescent
+WW246;;NA;NA;UNK
+WW248;;NA;NA;UNK
+WW259;;NA;NA;UNK
+WW266;;NA;NA;UNK
+WW273;Iran;Iran;Asia;Fertile Crescent
