@@ -12,8 +12,7 @@ The results of these simulations have been used to build Figure 2B.
 ### 1. Cropping the tree to remove individuals of unknown origin and non T.aestivum.
 
 Python code:
-"""
-
+```
 #UNK + spelta + shaerococcum
 toPrune = ["WW040","WW066","WW105","WW159","WW170","WW171","WW246","WW248","WW259","WW266","WW240","WW241"]
 
@@ -29,9 +28,11 @@ tree.prune(toKeep)
 OUT=open("Taestivum.allGenes.noUNKorigin.nwk","w")
 OUT.write( tree.write() + "\n" )
 OUT.close()
-"""
+
+```
 
 ### 2. Inference of Ancestral States
+
 * Code: [estimate_ancestral_states.R](estimate_ancestral_states.R)
 
 ### 3. Analysis and Plots
