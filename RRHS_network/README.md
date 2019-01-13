@@ -1,6 +1,6 @@
 # Studying the Phylogeny and Reticulate Evolution of the Wheat Species Complex using Repeated Random Haplotype Sampling (RRHS) (Figure 4)
 
-Author: [Daniel Lang](Daniel.Lang@helmholtz-muenchen.de)
+Author: [Daniel Lang](mailto:Daniel.Lang@helmholtz-muenchen.de)
 
 ## Basis for Figures and Tables
 * Figure 4
