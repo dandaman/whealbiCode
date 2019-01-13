@@ -1,4 +1,4 @@
-# Computation of nulceotide diversity (Tajima's π) (Figure 3)
+# Computation of nucleotide diversity π (Figure 3)
 
 Author: [Thibault Leroy](mailto:thibault.leroy@umontpellier.fr)
 
