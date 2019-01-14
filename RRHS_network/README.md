@@ -9,6 +9,7 @@ This directory comprises a set of jupyter notebooks, snakemake workflows and scr
 ## Basis for Figures and Tables
 * Figure 4
 * Figure S10
+* Table S7 (full versions as [tsv](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.tsv) and [xlsx](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.xlsx))
 * Figure S11
 * Figure S13
 
