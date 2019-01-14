@@ -2,13 +2,13 @@
 
 Author: [Daniel Lang](mailto:Daniel.Lang@helmholtz-muenchen.de)
 
+This directory comprises a set of jupyter notebooks, snakemake workflows and scripts that were utilized to perform the phylogenetic analyses underlying the model of Reticulate Evolution in the Wheat Species Complex.
+
 ## Basis for Figures and Tables
 * Figure 4
 * Figure S10
 * Figure S11
 * Figure S13
-
-This directory comprises a set of jupyter notebooks, snakemake workflows and scripts that were utilized to perform the phylogenetic analyses underlying the model of ...
 
 ## Workflow
 ### 1. SNP filtering and export as multiple alignments using IUPAC ambiguity and RRHS for heterozygous sites
@@ -71,10 +71,48 @@ snakemake --snakefile Snakefile.raxml_chr --cluster 'qsub -q QUEUENAME -V -cwd -
 ```
 
 ### 3. Phylogenetic inference of maximum likelihood trees for the 1000 RRHS samples
+#### Input:
+1. 1000 Multiple sequence alignments with heterozygous sites randomly selected by RRHS ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
+#### Output:
+1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+2. automatically generated configuration files as input for RAxML 
+3. other files reported by RAxML
+
 #### Code:
-1. [FilterSNPsNGetAlignments.ipynb](FilterSNPsNGetAlignments.ipynb)
+1. [RRHS_RAxML/Snakefile](RRHS_RAxML/Snakefile)
 
 #### External software (beyond imported packages):
 1. [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/index.html)
 
 #### Parametric details: 
+* `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
+* total size to relate ascertainment bias: 44746258 --> present in 95% of the subgenome-specific samples on median
+* 10 threads
+* per core memory: 2GB
+
+#### Additional syntax:
+```Bash
+#cluster submission
+snakemake --cluster 'qsub -q QUEUENAME -e {log.err} -o {log.out} -cwd -pe serial {threads} -l job_mem={params.mem}' -j 500 -w 500
+```
+
+### 4. head 
+#### Input:
+1. stub
+#### Output:
+1. stub
+
+#### Code:
+1. [RRHS_RAxML/Snakefile](RRHS_RAxML/Snakefile)
+
+#### External software (beyond imported packages):
+1. [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/index.html)
+
+#### Parametric details: 
+* `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
+
+#### Additional syntax:
+```Bash
+#cluster submission
+snakemake --cluster 'qsub -q QUEUENAME -e {log.err} -o {log.out} -cwd -pe serial {threads} -l job_mem={params.mem}' -j 500 -w 500
+```
