@@ -64,7 +64,7 @@ Applied filtering criteria (in order of application):
 
 #### Parametric details: 
 * `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
-* total size to relate ascertainment bias: 44746258 --> present in 95% of the subgenome-specific samples on median
+* total size to relate ascertainment bias: 44746258 &#x2192; present in 95% of the subgenome-specific samples on median
 * 12 and 4 threads respectively
 
 #### Additional syntax:
@@ -90,7 +90,7 @@ snakemake --snakefile Snakefile.raxml_chr --cluster 'qsub -q QUEUENAME -V -cwd -
 
 #### Parametric details: 
 * `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
-* total size to relate ascertainment bias: 44746258 --> present in 95% of the subgenome-specific samples on median
+* total size to relate ascertainment bias: 44746258 &#x2192; present in 95% of the subgenome-specific samples on median
 * 10 threads
 * per core memory: 2GB
 
@@ -153,16 +153,16 @@ snakemake --snakefile Snakefile.ASTRAL-II
 
 ### 6. Inference of a Phylogenetic Consensus Network for each Subgenome  
 Foreach subgenome, this procedure:
-1. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) tip graph for each RRHS tree using the phylogenetic distance as weight --> `mst_trees` 
-2. merges them into a weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight --> `G` 
-3. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` --> `GM`
+1. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) tip graph for each RRHS tree using the phylogenetic distance as weight &#x2192; `mst_trees` 
+2. merges them into a weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight &#x2192; `G` 
+3. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` &#x2192; `GM`
 
 #### Input:
 1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
 2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
 #### Output:
-1. Weighted phylogenetic consensus network for each subgenome (B, A, D) `G` --> Figure4A 
-2. Minimal phylogenetic consensus network for each subgenome (B, A, D) `GM` --> Figure S10
+1. Weighted phylogenetic consensus network for each subgenome (B, A, D) `G` &#x2192; Figure4A 
+2. Minimal phylogenetic consensus network for each subgenome (B, A, D) `GM` &#x2192; Figure S10
 
 #### Code:
 1. [RRHS_RAxML/GetNetwork.B.ipynb](RRHS_RAxML/GetNetwork.B.ipynb)
