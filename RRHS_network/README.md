@@ -96,23 +96,53 @@ snakemake --snakefile Snakefile.raxml_chr --cluster 'qsub -q QUEUENAME -V -cwd -
 snakemake --cluster 'qsub -q QUEUENAME -e {log.err} -o {log.out} -cwd -pe serial {threads} -l job_mem={params.mem}' -j 500 -w 500
 ```
 
-### 4. head 
+### 4. Inferring consensus topologies for the 1000 RRHS trees using RAxML
 #### Input:
-1. stub
+1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
 #### Output:
-1. stub
+1. Consensus topologies with support values (NEWICK; e.g. `RAxML_MajorityRuleConsensusTree.ASC_GTRGAMMA_felsenstein.A.RRHS_consensus.MR`) with 4 methods: 
+	1. MajorityRuleExtendedConsensusTree
+	2. MajorityRuleConsensusTree 
+	3. StrictConsensusTree
+	4. Threshold-75-ConsensusTree
+2. other files reported by RAxML
 
 #### Code:
-1. [RRHS_RAxML/Snakefile](RRHS_RAxML/Snakefile)
+1. [RRHS_RAxML/Snakefile.consensu](RRHS_RAxML/Snakefile.consensu)
 
 #### External software (beyond imported packages):
 1. [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/index.html)
 
 #### Parametric details: 
-* `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
+* `-m ASC_GTRGAMMA `
+* 20 threads
 
 #### Additional syntax:
 ```Bash
-#cluster submission
-snakemake --cluster 'qsub -q QUEUENAME -e {log.err} -o {log.out} -cwd -pe serial {threads} -l job_mem={params.mem}' -j 500 -w 500
+cd RRHS_RAxML/
+snakemake --snakefile Snakefile.consensu 
+```
+
+### 5. Inferring consensus topologies for the 1000 RRHS trees using ASTRAL 
+Gratefully following the advise and suggestions by ASTRAL developer [Siavash Mirarab](https://github.com/smirarab):  
+https://github.com/smirarab/ASTRAL/issues/38
+
+#### Input:
+1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+#### Output:
+1. Consensus topologies with quartet values (NEWICK) e.g. `RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.astral.quartets.nh`
+
+#### Code:
+1. [RRHS_RAxML/Snakefile.ASTRALL-II](RRHS_RAxML/Snakefile.ASTRALL-II)
+
+#### External software (beyond imported packages):
+1. [ASTRAL 4.10.12](https://github.com/smirarab/ASTRAL)
+
+#### Parametric details: 
+* `-t 1 `
+
+#### Additional syntax:
+```Bash
+cd RRHS_RAxML/
+snakemake --snakefile Snakefile.ASTRAL-II
 ```
