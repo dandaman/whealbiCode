@@ -1,0 +1,35 @@
+from Bio import SeqIO
+
+workingdir="/nfs/pgsb/projects/evograph/analysis/paper_triae1/manuscript_whealbi/after_NatureGen_review/unimputed/iupac"
+total=int(44746258) #present in 95% of the subgenome-specific samples on median
+
+GENOMES=["B","A","D"]
+
+rule all:
+	input:
+		expand("{genome}/RAxML_bestTree.ASC_GTRGAMMA_felsenstein",genome=GENOMES)
+
+rule RAxML:
+	input:
+		"{genome}/genome.fasta",
+		"{genome}/genome.part",
+		"{genome}/genome.invariant",
+		workingdir+"/{genome}"
+	output:
+		"{genome}/RAxML_bestTree.ASC_GTRGAMMA_felsenstein"
+	threads: 12
+	shell:
+		"/home/pgsb/daniel.lang/software/standard-RAxML/raxmlHPC-PTHREADS-SSE3 -m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein -s {input[0]} -n ASC_GTRGAMMA_felsenstein -T {threads} -p 27042012 -q {input[1]} -w {input[3]}"
+
+rule make_part:
+	input:
+		"{genome}/genome.fasta",
+	output:
+		"{genome}/genome.part",
+		"{genome}/genome.invariant"
+	run:
+		record = next(SeqIO.parse(input[0], "fasta"))
+		with open(output[0], "w") as out:
+			print("[asc~{p1}], ASC_DNA, p1=1-{seqlen}".format(p1=output[1],seqlen=len(record)), file=out)
+		with open(output[1], "w") as out:
+			print(str(total-len(record)) , file=out)

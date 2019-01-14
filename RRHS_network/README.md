@@ -1,6 +1,8 @@
 # Studying the Phylogeny and Reticulate Evolution of the Wheat Species Complex using Repeated Random Haplotype Sampling (RRHS) (Figure 4)
 
-Author: [Daniel Lang](Daniel.Lang@helmholtz-muenchen.de)
+Author: [Daniel Lang](mailto:Daniel.Lang@helmholtz-muenchen.de)
+
+This directory comprises a set of jupyter notebooks, snakemake workflows and scripts that were utilized to perform the phylogenetic analyses underlying the model of Reticulate Evolution in the Wheat Species Complex.
 
 ## Basis for Figures and Tables
 * Figure 4
@@ -8,25 +10,109 @@ Author: [Daniel Lang](Daniel.Lang@helmholtz-muenchen.de)
 * Figure S11
 * Figure S13
 
-This directory comprises a set of jupyter notebooks, snakemake workflows and scripts that were utilized to perform the phylogenetic analyses underlying the model of ...
-
-## Input
-1. Unfiltered, unimputed SNPs in VCF split by chromosome
+## Workflow
+### 1. SNP filtering and export as multiple alignments using IUPAC ambiguity and RRHS for heterozygous sites
+## Input:
+1. Unimputed variant calls in VCF split by chromosome (e.g. `full_vcfs/chr1A.minocc10.maf1pc.vcf`)
 2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
 
-# Output
+# Output:
+1. Variant call data structures in [HDF5](https://de.wikipedia.org/wiki/Hierarchical_Data_Format)
+2. Multiple sequence alignments with heterozygous sites as [IUPAC ambiguity symbols](https://en.wikipedia.org/wiki/Nucleic_acid_notation#IUPAC_notation) ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
+	1. 3 subgenomes (B, A, D)
+	2. 3 x 7 chromosomes (1B-7B, 1A-7A, 1D-7D)
+3. 1000 Multiple sequence alignments with heterozygous sites randomly selected by RRHS ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
+4. Filtered VCF files ([VCF](https://en.wikipedia.org/wiki/Variant_Call_Format))
+5. Diverse exploratory plots ([PDF](https://en.wikipedia.org/wiki/PDF))
 
-## Workflow
-### 1. SNP filtering and export as multiple alignments
 #### Code:
 1. [FilterSNPsNGetAlignments.ipynb](FilterSNPsNGetAlignments.ipynb)
 
-#### External software (beyond imported packages):
+#### Parametric details: Applied filtering criteria (in order of application):
+1. Only SNPs
+2. Maximally missing in 10% of the genotypes
+3. Biallelic
+4. Alternative allele must be present in >1 genotype
+5. LD Pruning ([scikit.allele.locate_unlinked](https://scikit-allel.readthedocs.io/en/latest/stats/ld.html)): 
+	* `allele.locate_unlinked(gn, size=window_size, step=step_size, threshold=threshold)`
+	* window size = 500bp
+	* step size = 200bp
+	* threshold = 0.1
+6. Polymorphic sites
 
-### 2. Phylogenetic inference of maximum likelihood trees for the 1000 RRHS samples
+### 2. Phylogenetic inference of maximum likelihood trees for the IUPAC alignments
+#### Input:
+1. Multiple sequence alignments with heterozygous sites as [IUPAC ambiguity symbols](https://en.wikipedia.org/wiki/Nucleic_acid_notation#IUPAC_notation) ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
+	1. 3 subgenomes (B, A, D)
+	2. 3 x 7 chromosomes (1B-7B, 1A-7A, 1D-7D)
+#### Output:
+1. Phylogenetic trees (NEWICK):
+	1. `iupac/A/RAxML_bestTree.ASC_GTRGAMMA_felsenstein`
+	2. `iupac/A_chromosomes/RAxML_bestTree.chr1A.ASC_GTRGAMMA_felsenstein`
+2. automatically generated configuration files as input for RAxML 
+3. other files reported by RAxML
 #### Code:
-1. [FilterSNPsNGetAlignments.ipynb](FilterSNPsNGetAlignments.ipynb)
+1. [iupac/Snakefile.raxml](iupac/Snakefile.raxml)
+2. [iupac/Snakefile.raxml_chr](iupac/Snakefile.raxml_chr)
 
 #### External software (beyond imported packages):
 1. [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/index.html)
 
+#### Parametric details: 
+* `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
+* total size to relate ascertainment bias: 44746258 --> present in 95% of the subgenome-specific samples on median
+* 12 and 4 threads respectively
+
+#### Additional syntax:
+```Bash
+#cluster submission
+snakemake --snakefile Snakefile.raxml --cluster 'qsub -q QUEUENAME -V -cwd -e log/ -o log/ -pe serial {threads} -l job_mem=2G' -j 100 -w 500
+snakemake --snakefile Snakefile.raxml_chr --cluster 'qsub -q QUEUENAME -V -cwd -e log/ -o log/ -pe serial {threads} -l job_mem=2G' -j 100 -w 500
+```
+
+### 3. Phylogenetic inference of maximum likelihood trees for the 1000 RRHS samples
+#### Input:
+1. 1000 Multiple sequence alignments with heterozygous sites randomly selected by RRHS ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
+#### Output:
+1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+2. automatically generated configuration files as input for RAxML 
+3. other files reported by RAxML
+
+#### Code:
+1. [RRHS_RAxML/Snakefile](RRHS_RAxML/Snakefile)
+
+#### External software (beyond imported packages):
+1. [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/index.html)
+
+#### Parametric details: 
+* `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
+* total size to relate ascertainment bias: 44746258 --> present in 95% of the subgenome-specific samples on median
+* 10 threads
+* per core memory: 2GB
+
+#### Additional syntax:
+```Bash
+#cluster submission
+snakemake --cluster 'qsub -q QUEUENAME -e {log.err} -o {log.out} -cwd -pe serial {threads} -l job_mem={params.mem}' -j 500 -w 500
+```
+
+### 4. head 
+#### Input:
+1. stub
+#### Output:
+1. stub
+
+#### Code:
+1. [RRHS_RAxML/Snakefile](RRHS_RAxML/Snakefile)
+
+#### External software (beyond imported packages):
+1. [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/index.html)
+
+#### Parametric details: 
+* `-m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein`
+
+#### Additional syntax:
+```Bash
+#cluster submission
+snakemake --cluster 'qsub -q QUEUENAME -e {log.err} -o {log.out} -cwd -pe serial {threads} -l job_mem={params.mem}' -j 500 -w 500
+```

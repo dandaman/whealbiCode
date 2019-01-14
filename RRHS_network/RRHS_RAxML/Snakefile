@@ -1,0 +1,48 @@
+from Bio import SeqIO
+
+workingdir="/nfs/pgsb/projects/evograph/analysis/paper_triae1/manuscript_whealbi/after_NatureGen_review/unimputed/RRHS_RAxML/"
+total=round(int(44746258)/3) #present in 95% of the subgenome-specific samples on median
+replicates=1000
+
+REPL=list(range(1, replicates+1))
+GENOMES=["B","A","D"]
+
+rule all:
+	input:
+		expand("output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.{replicate}",replicate=REPL,genome=GENOMES)
+
+rule RAxML:
+	input:
+		"input/{genome}/{replicate}.fasta",
+		"input/{genome}/{replicate}.part",
+		"input/{genome}/{replicate}.invariant",
+		workingdir+"/output"
+	output:
+		"output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.{replicate}"
+	threads: 10
+	log:
+		out="log/RAxML.{genome}.{replicate}.log",
+		err="log/RAxML.{genome}.{replicate}.err"
+	params: 
+		mem="2G"
+	shell:
+		"/home/pgsb/daniel.lang/software/standard-RAxML/raxmlHPC-PTHREADS-SSE3 -m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein -s {input[0]} -n ASC_GTRGAMMA_felsenstein.{wildcards.genome}.{wildcards.replicate} -T {threads} -p 27042012 -q {input[1]} -w {input[3]}"
+
+rule make_part:
+	input:
+		"input/{genome}/{replicate}.fasta",
+	output:
+		"input/{genome}/{replicate}.part",
+		"input/{genome}/{replicate}.invariant"
+	threads: 1
+	params:
+		mem="40G"
+	log:
+		out="log/make_part.{genome}.{replicate}.log",
+		err="log/make_part.{genome}.{replicate}.err"
+	run:
+		record = next(SeqIO.parse(input[0], "fasta"))
+		with open(output[0], "w") as out:
+			print("[asc~{p1}], ASC_DNA, p1=1-{seqlen}".format(p1=output[1],seqlen=len(record)), file=out)
+		with open(output[1], "w") as out:
+			print(str(total-len(record)) , file=out)
