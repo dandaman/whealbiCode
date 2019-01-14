@@ -151,11 +151,11 @@ cd RRHS_RAxML/
 snakemake --snakefile Snakefile.ASTRAL-II
 ```
 
-### 6. Inference of Phylogenetic Consensus Network for each subgenome  
+### 6. Inference of a Phylogenetic Consensus Network for each Subgenome  
 Foreach subgenome, this procedure:
 1. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) tip graph for each RRHS tree using the phylogenetic distance as weight --> `mst_trees` 
-2. merge into weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight --> `G` 
-3. infer the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` --> `GM`
+2. merges them into a weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight --> `G` 
+3. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` --> `GM`
 
 #### Input:
 1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
