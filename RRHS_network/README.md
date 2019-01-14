@@ -24,7 +24,7 @@ This directory comprises a set of jupyter notebooks, snakemake workflows and scr
 5. Diverse exploratory plots ([PDF](https://en.wikipedia.org/wiki/PDF))
 
 ## Workflow
-### 1. SNP filtering and export as multiple alignments
+### 1. SNP filtering and export as multiple alignments using IUPAC ambiguity and RRHS for heterozygous sites
 #### Applied filtering criteria (in order of application):
 1. Only SNPs
 2. Maximally missing in 10% of the genotypes
@@ -39,8 +39,6 @@ This directory comprises a set of jupyter notebooks, snakemake workflows and scr
 
 #### Code:
 1. [FilterSNPsNGetAlignments.ipynb](FilterSNPsNGetAlignments.ipynb)
-
-#### External software (beyond imported packages):
 
 ### 2. Phylogenetic inference of maximum likelihood trees for the 1000 RRHS samples
 #### Code:
