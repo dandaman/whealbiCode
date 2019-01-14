@@ -2,7 +2,7 @@
 
 Author: [Daniel Lang](mailto:Daniel.Lang@helmholtz-muenchen.de)
 
-![RRHS network](RRHS_RAxML/Figure/Figure/Figure4A.png)
+![RRHS network](RRHS_RAxML/Figure/Figure4A.png)
 
 This directory comprises a set of jupyter notebooks, snakemake workflows and scripts that were utilized to perform the phylogenetic analyses underlying the model of reticulate evolution in the wheat species complex.
 
