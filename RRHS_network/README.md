@@ -2,7 +2,9 @@
 
 Author: [Daniel Lang](mailto:Daniel.Lang@helmholtz-muenchen.de)
 
-This directory comprises a set of jupyter notebooks, snakemake workflows and scripts that were utilized to perform the phylogenetic analyses underlying the model of Reticulate Evolution in the Wheat Species Complex.
+![RRHS network](RRHS_RAxML/Figure/Figure/Figure4A.png)
+
+This directory comprises a set of jupyter notebooks, snakemake workflows and scripts that were utilized to perform the phylogenetic analyses underlying the model of reticulate evolution in the wheat species complex.
 
 ## Basis for Figures and Tables
 * Figure 4
@@ -146,3 +148,5 @@ https://github.com/smirarab/ASTRAL/issues/38
 cd RRHS_RAxML/
 snakemake --snakefile Snakefile.ASTRAL-II
 ```
+
+
