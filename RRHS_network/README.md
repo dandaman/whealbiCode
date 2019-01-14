@@ -9,7 +9,7 @@ This directory comprises a set of jupyter notebooks, snakemake workflows and scr
 ## Basis for Figures and Tables
 * Figure 4
 * Figure S10
-* Table S7 (full versions as [tsv](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.tsv) and [xlsx](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.xlsx))
+* Table S7 (manuscript version comprises only MST edges - full version as [tsv](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.tsv) and [xlsx](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.xlsx))
 * Figure S11
 * Figure S13
 
@@ -31,7 +31,8 @@ This directory comprises a set of jupyter notebooks, snakemake workflows and scr
 #### Code:
 1. [FilterSNPsNGetAlignments.ipynb](FilterSNPsNGetAlignments.ipynb)
 
-#### Parametric details: Applied filtering criteria (in order of application):
+#### Parametric details: 
+Applied filtering criteria (in order of application):
 1. Only SNPs
 2. Maximally missing in 10% of the genotypes
 3. Biallelic
@@ -150,4 +151,24 @@ cd RRHS_RAxML/
 snakemake --snakefile Snakefile.ASTRAL-II
 ```
 
+### 6. Inference of Phylogenetic Consensus Network for each subgenome  
+Foreach subgenome, this procedure:
+1. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) tip graph for each RRHS tree using the phylogenetic distance as weight --> `mst_trees` 
+2. merge into weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight --> `G` 
+3. infer the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` --> `GM`
+
+#### Input:
+1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
+#### Output:
+1. Weighted phylogenetic consensus network for each subgenome (B, A, D) `G` --> Figure4A 
+2. Minimal phylogenetic consensus network for each subgenome (B, A, D) `GM` --> Figure S10
+
+#### Code:
+1. [RRHS_RAxML/GetNetwork.B.ipynb](RRHS_RAxML/GetNetwork.B.ipynb)
+2. [RRHS_RAxML/GetNetwork.A.ipynb](RRHS_RAxML/GetNetwork.A.ipynb)
+3. [RRHS_RAxML/GetNetwork.D.ipynb](RRHS_RAxML/GetNetwork.D.ipynb)
+
+#### Parametric details: 
+* 20 threads
 
