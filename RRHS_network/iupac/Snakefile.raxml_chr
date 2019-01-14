@@ -1,0 +1,37 @@
+from Bio import SeqIO
+
+workingdir="/nfs/pgsb/projects/evograph/analysis/paper_triae1/manuscript_whealbi/after_NatureGen_review/unimputed/iupac"
+total=int(44746258)/3 #present in 95% of the subgenome-specific samples on median
+
+GENOMES=["B","A","D"]
+CHROMOSOMES=["chr"+str(x) for x in range(1,8)]
+
+
+rule all:
+	input:
+		expand("{genome}_chromosomes/RAxML_bestTree.{chromosome}{genome}.ASC_GTRGAMMA_felsenstein",genome=GENOMES,chromosome=CHROMOSOMES)
+
+rule RAxML:
+	input:
+		"{genome}_chromosomes/{chromosome}{genome}.fasta",
+		"{genome}_chromosomes/{chromosome}{genome}.part",
+		"{genome}_chromosomes/{chromosome}{genome}.invariant",
+		workingdir+"/{genome}_chromosomes"
+	output:
+		"{genome}_chromosomes/RAxML_bestTree.{chromosome}{genome}.ASC_GTRGAMMA_felsenstein"
+	threads: 4
+	shell:
+		"/home/pgsb/daniel.lang/software/standard-RAxML/raxmlHPC-PTHREADS-SSE3 -m ASC_GTRGAMMA --JC69 --asc-corr=felsenstein -s {input[0]} -n {wildcards.chromosome}{wildcards.genome}.ASC_GTRGAMMA_felsenstein -T {threads} -p 27042012 -q {input[1]} -w {input[3]}"
+
+rule make_part:
+	input:
+		"{genome}_chromosomes/{chromosome}{genome}.fasta",
+	output:
+		"{genome}_chromosomes/{chromosome}{genome}.part",
+		"{genome}_chromosomes/{chromosome}{genome}.invariant"
+	run:
+		record = next(SeqIO.parse(input[0], "fasta"))
+		with open(output[0], "w") as out:
+			print("[asc~{p1}], ASC_DNA, p1=1-{seqlen}".format(p1=output[1],seqlen=len(record)), file=out)
+		with open(output[1], "w") as out:
+			print(str(total-len(record)) , file=out)
