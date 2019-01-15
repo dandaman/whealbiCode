@@ -26,11 +26,11 @@ This directory comprises a set of jupyter notebooks, snakemake workflows and scr
 
 ### 1. SNP filtering and export as multiple alignments using IUPAC ambiguity and RRHS for heterozygous sites
 A summary of the overall SNP filtering process is also provided as [LibreOffice calc sheet](SNP_stats.ods).
-## Input:
+#### Input:
 1. Unimputed variant calls in VCF split by chromosome (e.g. `full_vcfs/chr1A.minocc10.maf1pc.vcf`)
 2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
 
-## Output:
+#### Output:
 1. Variant call data structures in [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format)
 2. Multiple sequence alignments with heterozygous sites as [IUPAC ambiguity symbols](https://en.wikipedia.org/wiki/Nucleic_acid_notation#IUPAC_notation) ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
 	1. 3 subgenomes (B, A, D)
