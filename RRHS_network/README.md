@@ -30,8 +30,8 @@ A summary of the overall SNP filtering process is also provided as [LibreOffice 
 1. Unimputed variant calls in VCF split by chromosome (e.g. `full_vcfs/chr1A.minocc10.maf1pc.vcf`)
 2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
 
-# Output:
-1. Variant call data structures in [HDF5](https://de.wikipedia.org/wiki/Hierarchical_Data_Format)
+## Output:
+1. Variant call data structures in [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format)
 2. Multiple sequence alignments with heterozygous sites as [IUPAC ambiguity symbols](https://en.wikipedia.org/wiki/Nucleic_acid_notation#IUPAC_notation) ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
 	1. 3 subgenomes (B, A, D)
 	2. 3 x 7 chromosomes (1B-7B, 1A-7A, 1D-7D)
@@ -217,9 +217,9 @@ Indepth statistical analysis of the Taxon-Comunity clusters' composition and the
 2. Annotated versions of the trees
 
 #### Code:
-1. [RRHS_RAxML/PlotTrees.ipynb](RRHS_RAxML/PlotTrees.ipynb)
-2. [RRHS_RAxML/PlotTrees-Part2.ipynb](RRHS_RAxML/PlotTrees-Part2.ipynb)
-3. [RRHS_RAxML/PlotTrees-Astral.Communities.ipynb](RRHS_RAxML/PlotTrees-Astral.Communities.ipynb)
+1. [PlotTrees.ipynb](PlotTrees.ipynb)
+2. [PlotTrees-Part2.ipynb](PlotTrees-Part2.ipynb)
+3. [PlotTrees-Astral.Communities.ipynb](PlotTrees-Astral.Communities.ipynb)
 
 ### 9. Checking dominant genotype and introgressions in _durum x dicoccoides_ RIL lines
 This part of the analysis could be considered as something like blind study, as I was not aware that the genotypes taxon initally marked as *T. turgidum* actually were F6 RIL offspring from this study: 
