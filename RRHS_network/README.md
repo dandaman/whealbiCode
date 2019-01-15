@@ -151,12 +151,12 @@ cd RRHS_RAxML/
 snakemake --snakefile Snakefile.ASTRAL-II
 ```
 
-### 6. Inference of a Phylogenetic Consensus Network for each Subgenome and combine them into one Graph 
+### 6. Inference of a Phylogenetic Consensus Network from the RRHS Trees for each Subgenome and combine them into one Graph 
 Foreach subgenome, this procedure:
 1. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) tip graph for each RRHS tree using the phylogenetic distance as weight &#x2192; `mst_trees` 
 2. merges them each into a weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight &#x2192; `G` 
-3. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` &#x2192; `GM` (MST-edges)
-4. merges all subgenome graphs `G` into a combined graph with annotated MST-edges 
+3. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` &#x2192; `GM` (MST edges)
+4. merges all subgenome graphs `G` into a combined graph with annotated MST edges 
 
 #### Input:
 1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
@@ -164,7 +164,7 @@ Foreach subgenome, this procedure:
 #### Output:
 1. Weighted phylogenetic consensus network for each subgenome (B, A, D) `G`
 2. Minimal phylogenetic consensus network for each subgenome (B, A, D) `GM` 
-3. Combined, annotated, weighted phylogenetic consensus network comprising all subgenomes (B, A, D) &#x2192; Figure4A and FigureS10 
+3. Combined, annotated, weighted phylogenetic consensus network comprising all subgenomes (B, A, D) &#x2192; [Figure4A](RRHS_RAxML/Figure/Figure4A.png), [FigureS10](RRHS_RAxML/Figure/FigureS10.png) and Table S4 (manuscript version comprises only MST edges - full version as [tsv](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.tsv) and [xlsx](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.xlsx))
 
 #### Code:
 1. [RRHS_RAxML/GetNetwork.B.ipynb](RRHS_RAxML/GetNetwork.B.ipynb)
