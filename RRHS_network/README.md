@@ -212,15 +212,15 @@ Indepth statistical analysis of the Taxon-Comunity clusters' composition and the
 3. [RRHS_RAxML/PlotTrees-Astral.Communities.ipynb](RRHS_RAxML/PlotTrees-Astral.Communities.ipynb)
 
 ### 9. Checking dominant genotype and introgressions in _durum x dicoccoides_ RIL lines
-This initially was more or less a blind study, as I was not aware that the genotypes taxon initally marked as *T. turgidum* actually were F6 RIL offspring from this study: 
+This part of the analysis could be considered as something like blind study, as I was not aware that the genotypes taxon initally marked as *T. turgidum* actually were F6 RIL offspring from this study: 
 
 [Ben-David et al 2008, Dissection of powdery mildew resistance uncover different resistance types in the *Triticum turgidum L.* gene pool. Conference: the 11th International Wheat Genetics Symposium](https://www.researchgate.net/publication/236735072_Dissection_of_powdery_mildew_resistance_uncover_different_resistance_types_in_the_Triticum_turgidum_L_gene_pool)
+
+As they were identified as hybrids in our approach they served as an excellent showcase and proof-of-concept.
+
 #### Input:
 1. Multiple sequence alignments with heterozygous sites as [IUPAC ambiguity symbols](https://en.wikipedia.org/wiki/Nucleic_acid_notation#IUPAC_notation) ([FASTA](https://en.wikipedia.org/wiki/FASTA_format)) per chromosome
 #### Output:
 1. Various plots and tables in the notebook
-
 #### Code:
 1. [CheckRIL.ipynb](CheckRIL.ipynb)
-
-
