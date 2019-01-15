@@ -207,6 +207,8 @@ Indepth statistical analysis of the Taxon-Comunity clusters' composition and the
 2. Annotated versions of the trees
 
 #### Code:
-1. [RRHS_RAxML/TestClusters.ipynb](RRHS_RAxML/TestClusters.ipynb)
+1. [RRHS_RAxML/PlotTrees.ipynb](RRHS_RAxML/PlotTrees.ipynb)
+2. [RRHS_RAxML/PlotTrees-Part2.ipynb](RRHS_RAxML/PlotTrees-Part2.ipynb)
+3. [RRHS_RAxML/PlotTrees-Astral.Communities.ipynb](RRHS_RAxML/PlotTrees-Astral.Communities.ipynb)
 
 
