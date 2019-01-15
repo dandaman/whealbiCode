@@ -24,6 +24,6 @@ Additional files are required by `angsd`, please refer to the documentation of [
 ## Code:
 1. [angsd_sge.py](angsd_sge.py)
 
-#### External software (beyond imported packages):
+## External software (beyond imported packages):
 1. [ANGSD](https://github.com/ANGSD/angsd)
 
