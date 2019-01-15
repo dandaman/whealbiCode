@@ -1,6 +1,8 @@
-# Inference of Hybridization and Introgression Events using ABBA-BABBA (Figure 4)
+# Inference of Hybridization and Introgression Events using ABBA-BABA (Figure 4)
 
 Author: [Michael Seidel](mailto:michael.seidel@helmholtz-muenchen.de)
+
+![FigureS12](Figure/FigureS12.png)
 
 ## Basis for Figures and Tables
 * Figure 4B
