@@ -1,0 +1,488 @@
+id	code	continent	Country.of.origin
+WW-001	FRA	Europe	France
+WW-002	FRA	Europe	France
+WW-003	FRA	Europe	France
+WW-004	FRA	Europe	France
+WW-005	FRA	Europe	France
+WW-006	FRA	Europe	France
+WW-007	FRA	Europe	France
+WW-008	FRA	Europe	France
+WW-009	DEU	Europe	Germany
+WW-010	DEU	Europe	Germany
+WW-011	DEU	Europe	Germany
+WW-012	DEU	Europe	Germany
+WW-013	DEU	Europe	Germany
+WW-014	DEU	Europe	Germany
+WW-015	DEU	Europe	Germany
+WW-016	DEU	Europe	Germany
+WW-017	DEU	Europe	Germany
+WW-018	DEU	Europe	Germany
+WW-019	ITA	Europe	Italy
+WW-020	ITA	Europe	Italy
+WW-021	ITA	Europe	Italy
+WW-022	ITA	Europe	Italy
+WW-023	HUN	Europe	Hungary
+WW-024	HUN	Europe	Hungary
+WW-025	HUN	Europe	Hungary
+WW-026	HUN	Europe	Hungary
+WW-027	HUN	Europe	Hungary
+WW-028	HUN	Europe	Hungary
+WW-029	JPN	Asia	Japan
+WW-030	GBR	Europe	United Kingdom
+WW-031	GBR	Europe	United Kingdom
+WW-032	GBR	Europe	United Kingdom
+WW-033	GBR	Europe	United Kingdom
+WW-034	GBR	Europe	United Kingdom
+WW-035	GBR	Europe	United Kingdom
+WW-036	DEU	Europe	DE/DK
+WW-037	FRA	Europe	France
+WW-038	DEU	Europe	Germany
+WW-039	CZE	Europe	DE/CZ/PL
+WW-040	POL	Europe	F/PL
+WW-041	FRA	Europe	France
+WW-042	DEU	Europe	Germany
+WW-043	DEU	Europe	DE/F/DK
+WW-044	DEU	Europe	DE/F/DK
+WW-045	DEU	Europe	Germany
+WW-046	FRA	Europe	France
+WW-047	FRA	Europe	France
+WW-048	GBR	Europe	United Kingdom
+WW-049	GBR	Europe	United Kingdom
+WW-050	GBR	Europe	United Kingdom
+WW-052	GBR	Europe	United Kingdom
+WW-053	GBR	Europe	United Kingdom
+WW-055	GBR	Europe	United Kingdom
+WW-056	GBR	Europe	United Kingdom
+WW-057	FRA	Europe	France
+WW-058	FRA	Europe	France
+WW-059	GBR	Europe	United Kingdom
+WW-060	DEU	Europe	Germany
+WW-061	FRA	Europe	France
+WW-062	FRA	Europe	France
+WW-063	DEU	Europe	Germany
+WW-064	RUS	Asia	Russian Federation
+WW-065	DEU	Europe	Germany
+WW-066		na	na
+WW-067	ITA	Europe	Italy
+WW-068	FRA	Europe	France
+WW-069	FRA	Europe	France
+WW-070	FRA	Europe	France
+WW-071	FRA	Europe	France
+WW-072	BGR	Europe	Bulgaria
+WW-073	ITA	Europe	Italy
+WW-074	JPN	Asia	Japan
+WW-075	KOR	Asia	KOR
+WW-076	PRK	Asia	PRK
+WW-077	SRB	Europe	YUG
+WW-078	ALB	Europe	Albania
+WW-079	JPN	Asia	Japan
+WW-080	USA	America	USA
+WW-081	CHN	Asia	China
+WW-082	SRB	Europe	YUG
+WW-083	JPN	Asia	Japan
+WW-084	CHN	Asia	China
+WW-085	EGY	Africa	Egypt
+WW-086	GBR	Europe	United Kingdom
+WW-087	HUN	Europe	Hungary
+WW-088	HUN	Europe	Hungary
+WW-089	HUN	Europe	Hungary
+WW-090	ROU	Europe	Romania
+WW-091	USA	America	USA
+WW-092	USA	America	USA
+WW-093	USA	America	USA
+WW-094	DEU	Europe	Germany
+WW-095	CHN	Asia	China
+WW-096	UKR	Europe	Ukraine
+WW-097	USA	America	USA
+WW-098	DEU	Europe	Germany
+WW-099	DEU	Europe	Germany
+WW-100	DEU	Europe	Germany
+WW-101	DEU	Europe	Germany
+WW-102	DEU	Europe	Germany
+WW-103	NLD	Europe	Netherlands
+WW-104	PAK	Asia	Pakistan
+WW-105		na	na
+WW-106	DEU	Europe	Germany
+WW-107		na	na
+WW-108	USA	America	USA
+WW-109	PAK	Asia	Pakistan
+WW-110	SWE	Europe	Sweden
+WW-111	ALB	Europe	Albania
+WW-112	POL	Europe	Poland
+WW-113	ZAF	Africa	South Africa
+WW-114	GRC	Europe	Greece
+WW-115	DEU	Europe	Germany
+WW-116	DEU	Europe	Germany
+WW-117	DEU	Europe	Germany
+WW-118	DEU	Europe	Germany
+WW-119	RUS	Asia	SUN
+WW-120	SWE	Europe	Sweden
+WW-121	DEU	Europe	Germany
+WW-122	DEU	Europe	Germany
+WW-123	LVA	Europe	Latvia
+WW-124	SWE	Europe	Sweden
+WW-125	PRT	Europe	Portugal
+WW-127	PRT	Europe	Portugal
+WW-131	PRT	Europe	Portugal
+WW-132	PRT	Europe	Portugal
+WW-133	PRT	Europe	Portugal
+WW-134	PRT	Europe	Portugal
+WW-135	PRT	Europe	Portugal
+WW-136	PRT	Europe	Portugal
+WW-137	PRT	Europe	Portugal
+WW-138	PRT	Europe	Portugal
+WW-140	PRT	Europe	Portugal
+WW-143	PRT	Europe	Portugal
+WW-145	PRT	Europe	Portugal
+WW-146	PRT	Europe	Portugal
+WW-147	PRT	Europe	Portugal
+WW-148	DEU	Europe	Germany
+WW-149	DEU	Europe	Germany
+WW-150	DEU	Europe	Germany
+WW-151	FRA	Europe	France
+WW-152	FRA	Europe	France
+WW-153	DNK	Europe	Denmark
+WW-154	FRA	Europe	France
+WW-155	GBR	Europe	United Kingdom
+WW-156	GBR	Europe	United Kingdom
+WW-157	FRA	Europe	France
+WW-158	DEU	Europe	Germany
+WW-159		na	na
+WW-160	DEU	Europe	Germany
+WW-161	FRA	Europe	France
+WW-162	FRA	Europe	France
+WW-163	DNK	Europe	Denmark
+WW-164	FRA	Europe	France
+WW-165	DNK	Europe	Denmark
+WW-166	DEU	Europe	Germany
+WW-167	FRA	Europe	France
+WW-168	DEU	Europe	Germany
+WW-169	DEU	Europe	Germany
+WW-170		na	na
+WW-171		na	na
+WW-172	ISR	Asia	Israel
+WW-173	ISR	Asia	Israel
+WW-174	ISR	Asia	Israel
+WW-175	ISR	Asia	Israel
+WW-176	ISR	Asia	Israel
+WW-177	ISR	Asia	Israel
+WW-178	USA	America	USA
+WW-179	ISR	Asia	Israel
+WW-180	ISR	Asia	Israel
+WW-181	ISR	Asia	Israel
+WW-182	ISR	Asia	Israel
+WW-183	TUR	Asia	Turkey
+WW-184	TUR	Asia	Turkey
+WW-185	TUR	Asia	Turkey
+WW-186	TUR	Asia	Turkey
+WW-187	TUR	Asia	Turkey
+WW-188	TUR	Asia	Turkey
+WW-189	TUR	Asia	Turkey
+WW-190	TUR	Asia	Turkey
+WW-191	TUR	Asia	Turkey
+WW-192	TUR	Asia	Turkey
+WW-194	TUR	Asia	Turkey
+WW-195	TUR	Asia	Turkey
+WW-196	TUR	Asia	Turkey
+WW-197	TUR	Asia	Turkey
+WW-200	TUR	Asia	Turkey
+WW-201	TUR	Asia	Turkey
+WW-202	TUR	Asia	Turkey
+WW-203	TUR	Asia	Turkey
+WW-204	TUR	Asia	Turkey
+WW-205	TUR	Asia	Turkey
+WW-207	AFG	Asia	Afghanistan
+WW-208	AFG	Asia	Afghanistan
+WW-209	AFG	Asia	Afghanistan
+WW-210	AZE	Asia	Azerbaijan
+WW-211	ARM	Asia	Armenia
+WW-212	TKM	Africa	Turkmenistan
+WW-213	RUS	Asia	Russian Federation
+WW-214	AZE	Asia	Azerbaijan
+WW-215	PAK	Asia	Pakistan
+WW-216	RUS	Asia	Russian Federation
+WW-217	TKM	Africa	Turkmenistan
+WW-218	PAK	Asia	Pakistan
+WW-219	TUR	Asia	Turkey
+WW-220	TUR	Asia	Turkey
+WW-221	TUR	Asia	Turkey
+WW-222	AZE	Asia	Azerbaijan
+WW-223	IRN	Asia	Iran
+WW-224	IRN	Asia	Iran
+WW-225	IRN	Asia	Iran
+WW-226	ARM	Asia	Armenia
+WW-227	ESP	Europe	Spain
+WW-228	TJK	Asia	Tajikistan
+WW-229	SYR	Asia	Syrian Arab Republic
+WW-230	IRQ	Asia	Iraq
+WW-231	TUR	Asia	Turkey
+WW-232	IRQ	Asia	Iraq
+WW-233	IRQ	Asia	Iraq
+WW-234	IRQ	Asia	Iraq
+WW-235	TUR	Asia	Turkey
+WW-236	TUR	Asia	Turkey
+WW-237	TUR	Asia	Turkey
+WW-238	TUR	Asia	Turkey
+WW-239	TUR	Asia	Turkey
+WW-240	ESP	Europe	Spain
+WW-241	CHN	Asia	China
+WW-242	GEO	Europe	Georgia
+WW-243	ETH	Africa	Ethiopia
+WW-244	RUS	Asia	Russian Federation
+WW-245	FRA	Europe	France
+WW-246	TUR	Asia	Turkey
+WW-247	TKM	Africa	Turkmenistan
+WW-248	IRN	Asia	Iran
+WW-249	LBN	Asia	Lebanon
+WW-250	IRN	Asia	Iran
+WW-251	TUR	Asia	Turkey
+WW-252	TUR	Asia	Turkey
+WW-253	TUR	Asia	Turkey
+WW-254	TUR	Asia	Turkey
+WW-255	ITA	Europe	Italy
+WW-256	RUS	Asia	SUN
+WW-257	LBN	Asia	Lebanon
+WW-258	TUR	Asia	Turkey
+WW-259	ISR	Asia	Israel
+WW-260	IRQ	Asia	Iraq
+WW-261	IRN	Asia	Iran
+WW-262	ITA	Europe	Italy
+WW-263	LBN	Asia	Lebanon
+WW-264	IRN	Asia	Iran
+WW-265	ESP	Europe	Spain
+WW-266	SVK	Europe	SVK
+WW-267	ROU	Europe	Romania
+WW-268	TUR	Asia	Turkey
+WW-269	RUS	Asia	SUN
+WW-271	DEU	Europe	Germany
+WW-272	TUR	Asia	Turkey
+WW-274	TUR	Asia	Turkey
+WW-276	FRA	Europe	France
+WW-277	FRA	Europe	France
+WW-278	FRA	Europe	France
+WW-279	FRA	Europe	France
+WW-280	USA	America	USA
+WW-281	BGR	Europe	Bulgaria
+WW-282	CHE	Europe	Switzerland
+WW-283	KEN	Africa	Kenya
+WW-284	COL	America	Colombia
+WW-285	NZL	Oceania	New Zealand
+WW-286	DEU	Europe	Germany
+WW-287	AUT	Europe	Austria
+WW-288	TUN	Africa	Tunisia
+WW-289	MEX	America	Mexico
+WW-290	AUT	Europe	Austria
+WW-291	CHE	Europe	Switzerland
+WW-292	ZAF	Africa	South Africa
+WW-293	FRA	Europe	France
+WW-294	MEX	America	Mexico
+WW-295	CAN	America	Canada
+WW-296	FRA	Europe	France
+WW-297	BGR	Europe	Bulgaria
+WW-298	USA	America	USA
+WW-299	ISR	Asia	Israel
+WW-300	JPN	Asia	Japan
+WW-301	MEX	America	Mexico
+WW-302	BEL	Europe	Belgium
+WW-303	CAN	America	Canada
+WW-304	ESP	Europe	Spain
+WW-305	FRA	Europe	France
+WW-306	FRA	Europe	France
+WW-307	UKR	Europe	Ukraine
+WW-308	RUS	Asia	Russian Federation
+WW-309	CHN	Asia	China
+WW-310	CHE	Europe	Switzerland
+WW-311	BGR	Europe	Bulgaria
+WW-312	EGY	Africa	Egypt
+WW-313	NLD	Europe	Netherlands
+WW-314	BGR	Europe	Bulgaria
+WW-315	AFG	Asia	Afghanistan
+WW-316	AUT	Europe	Austria
+WW-317	DEU	Europe	Germany
+WW-318	CHN	Asia	China
+WW-319	FRA	Europe	France
+WW-321	FRA	Europe	France
+WW-322	GBR	Europe	United Kingdom
+WW-323	FRA	Europe	France
+WW-324	AUT	Europe	Austria
+WW-325	DZA	Africa	Algeria
+WW-326	ITA	Europe	Italy
+WW-327	SRB	Europe	YUG
+WW-328	FRA	Europe	France
+WW-329	FRA	Europe	France
+WW-330	HUN	Europe	Hungary
+WW-331	FIN	Europe	Finland
+WW-332	SWE	Europe	Sweden
+WW-333	CHE	Europe	Switzerland
+WW-334	POL	Europe	Poland
+WW-335	USA	America	USA
+WW-336	TUN	Africa	Tunisia
+WW-337	TUN	Africa	Tunisia
+WW-338	ESP	Europe	Spain
+WW-339	ROU	Europe	Romania
+WW-340	FRA	Europe	France
+WW-341	TUR	Asia	Turkey
+WW-342	GBR	Europe	United Kingdom
+WW-343	BRA	America	Brazil
+WW-344	FRA	Europe	France
+WW-345	POL	Europe	Poland
+WW-346	CZE	Europe	Czechia
+WW-347	CZE	Europe	Czechia
+WW-348	POL	Europe	Poland
+WW-349	CZE	Europe	Czechia
+WW-350	UKR	Europe	Ukraine
+WW-351	FRA	Europe	France
+WW-352	HRV	Europe	Croatia
+WW-353	ESP	Europe	Spain
+WW-354	URY	America	Uruguay
+WW-355	RUS	Asia	Russian Federation
+WW-356	ROU	Europe	Romania
+WW-357	USA	America	USA
+WW-358	JPN	Asia	Japan
+WW-359	GRC	Europe	Greece
+WW-360	GRC	Europe	Greece
+WW-361	AUS	Oceania	Australia
+WW-362	HUN	Europe	Hungary
+WW-363	HUN	Europe	Hungary
+WW-364	ITA	Europe	Italy
+WW-365	RUS	Asia	Russian Federation
+WW-366	AUS	Oceania	Australia
+WW-367	ISR	Asia	Israel
+WW-368	ESP	Europe	Spain
+WW-369	FRA	Europe	France
+WW-371	BRA	America	Brazil
+WW-372	SYR	Asia	Syrian Arab Republic
+WW-374	FIN	Europe	Finland
+WW-375	BEL	Europe	Belgium
+WW-376	KEN	Africa	Kenya
+WW-377	TUR	Asia	Turkey
+WW-378	SWE	Europe	Sweden
+WW-379	DNK	Europe	Denmark
+WW-380	GBR	Europe	United Kingdom
+WW-381	POL	Europe	Poland
+WW-382	FIN	Europe	Finland
+WW-383	ARG	America	Argentina
+WW-384	ISR	Asia	Israel
+WW-385	POL	Europe	Poland
+WW-386	SWE	Europe	Sweden
+WW-387	GBR	Europe	United Kingdom
+WW-388	HUN	Europe	Hungary
+WW-389	POL	Europe	Poland
+WW-390	ESP	Europe	Spain
+WW-391	NLD	Europe	Netherlands
+WW-392	FRA	Europe	France
+WW-393	LBN	Asia	Lebanon
+WW-394	PRT	Europe	Portugal
+WW-396	ISR	Asia	Israel
+WW-397	NPL	Asia	Nepal
+WW-398	CHN	Asia	China
+WW-399	NZL	Oceania	New Zealand
+WW-400	SYR	Asia	Syrian Arab Republic
+WW-401	PRT	Europe	Portugal
+WW-402	PRT	Europe	Portugal
+WW-403	UKR	Europe	Ukraine
+WW-404	BGR	Europe	Bulgaria
+WW-405	DEU	Europe	Germany
+WW-406	ITA	Europe	Italy
+WW-407	RUS	Asia	Russian Federation
+WW-408	ESP	Europe	Spain
+WW-409	AUT	Europe	Austria
+WW-410	ARG	America	Argentina
+WW-411	PRT	Europe	Portugal
+WW-412	NLD	Europe	Netherlands
+WW-413	CAN	America	Canada
+WW-414	NPL	Asia	Nepal
+WW-415	CHE	Europe	Switzerland
+WW-416	ZWE	Africa	Zimbabwe
+WW-417	KOR	Asia	KOR
+WW-419	DEU	Europe	Germany
+WW-420	DZA	Africa	Algeria
+WW-421	FIN	Europe	Finland
+WW-422	ESP	Europe	Spain
+WW-423	ESP	Europe	Spain
+WW-424	ROU	Europe	Romania
+WW-425	FIN	Europe	Finland
+WW-426	FRA	Europe	France
+WW-427	NZL	Oceania	New Zealand
+WW-428	CAN	America	Canada
+WW-429	CAN	America	Canada
+WW-430	ESP	Europe	Spain
+WW-431	SYR	Asia	Syrian Arab Republic
+WW-432	SYR	Asia	Syrian Arab Republic
+WW-433	NER	Africa	Niger
+WW-434	DEU	Europe	Germany
+WW-435	ZWE	Africa	Zimbabwe
+WW-436	FIN	Europe	Finland
+WW-437	AUT	Europe	Austria
+WW-438	BEL	Europe	Belgium
+WW-439	CZE	Europe	Czechia
+WW-440	DEU	Europe	Germany
+WW-441	HUN	Europe	Hungary
+WW-442	FRA	Europe	France
+WW-444	TUR	Asia	Turkey
+WW-445	TUR	Asia	Turkey
+WW-446	NLD	Europe	Netherlands
+WW-447	CZE	Europe	Czechia
+WW-448	CZE	Europe	Czechia
+WW-449	UKR	Europe	Ukraine
+WW-450	GBR	Europe	United Kingdom
+WW-451	NLD	Europe	Netherlands
+WW-452	ARM	Asia	Armenia
+WW-453	TUR	Asia	Turkey
+WW-454	TUR	Asia	Turkey
+WW-455	MAR	Africa	Morocco
+WW-456	ETH	Africa	Ethiopia
+WW-457	IND	Asia	India
+WW-458	IND	Asia	India
+WW-459	RUS	Asia	Russian Federation
+WW-460	TJK	Asia	Tajikistan
+WW-461	TJK	Asia	Tajikistan
+WW-462	GEO	Europe	Georgia
+WW-463	PAK	Asia	Pakistan
+WW-464	RUS	Asia	Russian Federation
+WW-465	RUS	Asia	Russian Federation
+WW-467	TUR	Asia	Turkey
+WW-468	CHE	Europe	Switzerland
+WW-469	PAK	Asia	Pakistan
+WW-470	RUS	Asia	Russian Federation
+WW-471	ISR	Asia	Israel
+WW-472	ISR	Asia	Israel
+WW-473	TKM	Africa	Turkmenistan
+WW-474	AZE	Asia	Azerbaijan
+WW-475	ITA	Europe	Italy
+WW-476	CHN	Asia	China
+WW-477	NPL	Asia	Nepal
+WW-478	MEX	America	Mexico
+WW-479	NPL	Asia	Nepal
+WW-480	NPL	Asia	Nepal
+WW-481	USA	America	USA
+WW-482	AUS	Oceania	Australia
+WW-483	NPL	Asia	Nepal
+WW-484	MEX	America	Mexico
+WW-485	JPN	Asia	Japan
+WW-486	MEX	America	Mexico
+WW-487	IND	Asia	India
+WW-488	CHN	Asia	China
+WW-489	CHN	Asia	China
+WW-490	TJK	Asia	Tajikistan
+WW-492	FRA	Europe	France
+WW-493	MAR	Africa	Morocco
+WW-494	LBN	Asia	Syrian Arab Republic
+WW-495	IND	Asia	India
+WW-496	IND	Asia	India
+WW-497	IND	Asia	India
+WW-498	GRC	Europe	Greece
+WW-499	CHN	Asia	China
+WW-500	GBR	Europe	United Kingdom
+WW-501	PAK	Asia	India
+WW-502	CHN	Asia	China
+WW-503	AFG	Asia	Afghanistan
+WW-504	POL	Europe	Poland
+WW-505	GRC	Europe	Greece
+WW-506	GRC	Europe	Greece
+WW-507	TUR	Asia	Turkey
+WW-508	IND	Asia	India
+WW-509	RUS	Asia	SUN
+WW-510	DZA	Africa	Algeria
+WW-511	AFG	Asia	SUN
+WW-512	ITA	Europe	Italy

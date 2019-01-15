@@ -180,4 +180,19 @@ The [phylogenetic taxon-community clusters](RRHS_RAxML/Network.Clusters.nodes.cs
 #### Parametric details: 
 * 20 threads
 
+### 7. Analysis of the Phylogenetic Consensus Network and Taxon-Community Clusters
+Indepth statistical analysis of the Taxon-Comunity clusters' composition and the relationships between the 3 bread wheat communities. 
+
+#### Input:
+1. Node annotation [RRHS_RAxML/Network.Clusters.nodes.csv](RRHS_RAxML/Network.Clusters.nodes.csv)
+2. [Country Codes](curate.codes.txt)
+3. [RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.tsv](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.tsv)
+#### Output:
+1. Country annotated nodes of the [phylogenetic community-taxon clusters](RRHS_RAxML/PhylogeneticClusters.csv) 
+2. Country factors used in the analyses as [tsv](countries.tsv) and [xlsx](countries.xlsx) (latter was manually curated)
+3. Several exploratory plots some of which ended up as panels in Figure S13 (in notebook and [PDF](https://en.wikipedia.org/wiki/PDF))
+
+#### Code:
+1. [RRHS_RAxML/TestClusters.ipynb](RRHS_RAxML/TestClusters.ipynb)
+
 
