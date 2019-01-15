@@ -217,9 +217,9 @@ Indepth statistical analysis of the Taxon-Comunity clusters' composition and the
 2. Annotated versions of the trees
 
 #### Code:
-1. [RRHS_RAxML/PlotTrees.ipynb](RRHS_RAxML/PlotTrees.ipynb)
-2. [RRHS_RAxML/PlotTrees-Part2.ipynb](RRHS_RAxML/PlotTrees-Part2.ipynb)
-3. [RRHS_RAxML/PlotTrees-Astral.Communities.ipynb](RRHS_RAxML/PlotTrees-Astral.Communities.ipynb)
+1. [PlotTrees.ipynb](PlotTrees.ipynb)
+2. [PlotTrees-Part2.ipynb](PlotTrees-Part2.ipynb)
+3. [PlotTrees-Astral.Communities.ipynb](PlotTrees-Astral.Communities.ipynb)
 
 ### 9. Checking dominant genotype and introgressions in _durum x dicoccoides_ RIL lines
 This part of the analysis could be considered as something like blind study, as I was not aware that the genotypes taxon initally marked as *T. turgidum* actually were F6 RIL offspring from this study: 
