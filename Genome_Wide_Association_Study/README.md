@@ -23,7 +23,7 @@ The script [5_Multi-environment_GWAS_2019-01-14.R](5_Multi-environment_GWAS_2019
 The script [5_Multi-environment_GWAS_2019-01-14.R](5_Multi-environment_GWAS_2019-01-14.R) requires the following data files:
 
 *  [Phenotypes2017-10-27.csv](Phenotypes2017-10-27.csv) is the file with phenotypic data.
-*  `PCKinship/KinshipXY.csv` are the Kinship principal components for chromosome X, subgenome Y e.g. [PCKinship/Kinship1A.csv](PCKinship/Kinship1A.csv).
+*  `PCKinship/KinshipChrXY.csv` are the Kinship principal components for chromosome X, subgenome Y e.g. [PCKinship/KinshipChr1A.csv](PCKinship/KinshipChr1A.csv).
 *  `Scores/ScoresXYmaf05imputed.csv` are the SNP scores for chromosome X, subgenome Y (the SNP file, after imputation and removing SNPs with a MAF<0.05) e.g. [Scores/Scores1Amaf05imputed.csv](Scores/Scores1Amaf05imputed.csv)
 
 ## Code:
