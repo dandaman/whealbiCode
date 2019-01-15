@@ -2,10 +2,11 @@
 
 Author: [Thibault Leroy](mailto:thibault.leroy@umontpellier.fr)
 
-![Figure3](Figure/Figure3.png)
+![Figure3A](Figure/Figure3A.png)
+![Figure3B](Figure/Figure3B.png)
 
 ## Basis for Figures and Tables
-* Figure 3
+* Figure 3 A and B
 * Figure S7
 
 
