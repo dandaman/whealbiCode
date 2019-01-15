@@ -51,7 +51,7 @@ Applied filtering criteria (in order of application):
 	1. 3 subgenomes (B, A, D)
 	2. 3 x 7 chromosomes (1B-7B, 1A-7A, 1D-7D)
 #### Output:
-1. Phylogenetic trees (NEWICK):
+1. Phylogenetic trees ([NEWICK](https://en.wikipedia.org/wiki/Newick_format)):
 	1. `iupac/A/RAxML_bestTree.ASC_GTRGAMMA_felsenstein`
 	2. `iupac/A_chromosomes/RAxML_bestTree.chr1A.ASC_GTRGAMMA_felsenstein`
 2. automatically generated configuration files as input for RAxML 
@@ -79,7 +79,7 @@ snakemake --snakefile Snakefile.raxml_chr --cluster 'qsub -q QUEUENAME -V -cwd -
 #### Input:
 1. 1000 Multiple sequence alignments with heterozygous sites randomly selected by RRHS ([FASTA](https://en.wikipedia.org/wiki/FASTA_format))
 #### Output:
-1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+1. 1000 Phylogenetic trees ([NEWICK](https://en.wikipedia.org/wiki/Newick_format)) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
 2. automatically generated configuration files as input for RAxML 
 3. other files reported by RAxML
 
@@ -103,9 +103,9 @@ snakemake --cluster 'qsub -q QUEUENAME -e {log.err} -o {log.out} -cwd -pe serial
 
 ### 4. Inferring consensus topologies for the 1000 RRHS trees using RAxML
 #### Input:
-1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+1. 1000 Phylogenetic trees ([NEWICK](https://en.wikipedia.org/wiki/Newick_format)) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
 #### Output:
-1. Consensus topologies with support values (NEWICK; e.g. `RAxML_MajorityRuleConsensusTree.ASC_GTRGAMMA_felsenstein.A.RRHS_consensus.MR`) with 4 methods: 
+1. Consensus topologies with support values ([NEWICK](https://en.wikipedia.org/wiki/Newick_format); e.g. `RAxML_MajorityRuleConsensusTree.ASC_GTRGAMMA_felsenstein.A.RRHS_consensus.MR`) with 4 methods: 
 	1. MajorityRuleExtendedConsensusTree
 	2. MajorityRuleConsensusTree 
 	3. StrictConsensusTree
@@ -133,9 +133,9 @@ Gratefully following the advise and suggestions by ASTRAL developer [Siavash Mir
 https://github.com/smirarab/ASTRAL/issues/38
 
 #### Input:
-1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+1. 1000 Phylogenetic trees ([NEWICK](https://en.wikipedia.org/wiki/Newick_format)) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
 #### Output:
-1. Consensus topologies with quartet values (NEWICK) e.g. `RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.astral.quartets.nh`
+1. Consensus topologies with quartet values ([NEWICK](https://en.wikipedia.org/wiki/Newick_format)) e.g. `RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.astral.quartets.nh`
 
 #### Code:
 1. [RRHS_RAxML/Snakefile.ASTRALL-II](RRHS_RAxML/Snakefile.ASTRALL-II)
@@ -162,7 +162,7 @@ This procedure:
 Subsequently, the graph was imported into [Cytoscape](https://cytoscape.org), community clustering was performed using the [Newmann-Girvan algorithm](https://en.wikipedia.org/wiki/Girvan%E2%80%93Newman_algorithm) implemented in the [ClusterMaker2 plugin](http://www.rbvi.ucsf.edu/cytoscape/clusterMaker2/), the resulting clusters were intersected with taxonomic information and annotated with the [AutoAnnotate plugin](https://doi.org/10.12688/f1000research.9090.1). 
 
 #### Input:
-1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
+1. 1000 Phylogenetic trees ([NEWICK](https://en.wikipedia.org/wiki/Newick_format)) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
 2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
 #### Output:
 1. Weighted phylogenetic consensus network for each subgenome (B, A, D) `G`
@@ -191,6 +191,20 @@ Indepth statistical analysis of the Taxon-Comunity clusters' composition and the
 1. Country annotated nodes of the [phylogenetic community-taxon clusters](RRHS_RAxML/PhylogeneticClusters.csv) 
 2. Country factors used in the analyses as [tsv](countries.tsv) and [xlsx](countries.xlsx) (latter was manually curated)
 3. Several exploratory plots some of which ended up as panels in Figure S13 (in notebook and [PDF](https://en.wikipedia.org/wiki/PDF))
+
+#### Code:
+1. [RRHS_RAxML/TestClusters.ipynb](RRHS_RAxML/TestClusters.ipynb)
+
+### 8. Plotting Trees as Phylograms and Cloudogram/Densitrees
+#### Input:
+1. Tree files in [NEWICK](https://en.wikipedia.org/wiki/Newick_format) from the [IUPAC](iupac/) and [RRHS](RRHS_RAxML/) RAxML analyses
+2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
+3. [Taxon-Comunity cluster colors](RRHS_RAxML/TaxonCluster.colors.tsv)
+4. Country annotated nodes of the [phylogenetic community-taxon clusters](RRHS_RAxML/PhylogeneticClusters.curated.xlsx) 
+
+#### Output:
+1. Several tree plots in the notebook
+2. Annotated versions of the trees
 
 #### Code:
 1. [RRHS_RAxML/TestClusters.ipynb](RRHS_RAxML/TestClusters.ipynb)
