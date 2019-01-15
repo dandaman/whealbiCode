@@ -1,4 +1,4 @@
-# Geographical components of the panel structure (Figure 2B)
+# Components of the panel structure (Figure 2B)
 
 Author: [Wandrille Duchemin](mailto:wandrille.duchemin@inra.fr)
 
