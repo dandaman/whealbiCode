@@ -169,7 +169,7 @@ Subsequently, the graph was imported into [Cytoscape](https://cytoscape.org), co
 2. Minimal phylogenetic consensus network for each subgenome (B, A, D) `GM` 
 3. Combined, annotated, weighted phylogenetic consensus network comprising all subgenomes (B, A, D) &#x2192; [Figure4A](RRHS_RAxML/Figure/Figure4A.png), [FigureS10](RRHS_RAxML/Figure/FigureS10.png) and Table S4 (manuscript version comprises only MST edges - full version as [tsv](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.tsv) and [xlsx](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.xlsx))
 
-The [phylogenetic community-taxon clusters](RRHS_RAxML/Consensus_network.nodes.CommunityTaxonClusters.annotation.csv) were exported from Cytoscape. 
+The [phylogenetic taxon-community clusters](RRHS_RAxML/Network.Clusters.nodes.csv) were exported from Cytoscape. 
 
 #### Code:
 1. [RRHS_RAxML/GetNetwork.B.ipynb](RRHS_RAxML/GetNetwork.B.ipynb)
@@ -179,4 +179,5 @@ The [phylogenetic community-taxon clusters](RRHS_RAxML/Consensus_network.nodes.C
 
 #### Parametric details: 
 * 20 threads
+
 
