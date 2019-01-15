@@ -2,6 +2,7 @@
 
 Author: [Daniela Bustos Korts](mailto:daniela.bustoskorts@wur.nl)
 
+![figure1](Figure/Figure1.png)
 
 ## Basis for Figures and Tables
  * Figure 1
