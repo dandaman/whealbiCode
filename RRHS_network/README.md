@@ -15,6 +15,7 @@ This directory comprises a set of jupyter notebooks, snakemake workflows and scr
 
 ## Workflow
 ### 1. SNP filtering and export as multiple alignments using IUPAC ambiguity and RRHS for heterozygous sites
+A summary of the overall SNP filtering process is also provided as [LibreOffice calc sheet](SNP_stats.ods).
 ## Input:
 1. Unimputed variant calls in VCF split by chromosome (e.g. `full_vcfs/chr1A.minocc10.maf1pc.vcf`)
 2. [Genotype Metadata](Whealbi_500samples_table.xlsx)
@@ -151,12 +152,14 @@ cd RRHS_RAxML/
 snakemake --snakefile Snakefile.ASTRAL-II
 ```
 
-### 6. Inference of a Phylogenetic Consensus Network from the RRHS Trees for each Subgenome and combine them into one Graph 
-Foreach subgenome, this procedure:
-1. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) tip graph for each RRHS tree using the phylogenetic distance as weight &#x2192; `mst_trees` 
-2. merges them each into a weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight &#x2192; `G` 
+### 6. Inference of a Phylogenetic Consensus Network from RRHS trees
+This procedure:
+1. foreach subgenome, infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) tip graph for each RRHS tree using the phylogenetic distance as weight &#x2192; `mst_trees` 
+2. foreach subgenome, merges them each into a weighted graph using the inverse of the relative number of `mst_trees` sharing an edge as a weight &#x2192; `G` 
 3. infers the [minimum spanning tree](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.tree.mst.minimum_spanning_tree.html) graph of `G` &#x2192; `GM` (MST edges)
 4. merges all subgenome graphs `G` into a combined graph with annotated MST edges 
+
+Subsequently, the graph was imported into [Cytoscape](https://cytoscape.org), community clustering was performed using the [Newmann-Girvan algorithm](https://en.wikipedia.org/wiki/Girvan%E2%80%93Newman_algorithm) implemented in the [ClusterMaker2 plugin](http://www.rbvi.ucsf.edu/cytoscape/clusterMaker2/), the resulting clusters were intersected with taxonomic information and annotated with the [AutoAnnotate plugin](https://doi.org/10.12688/f1000research.9090.1). 
 
 #### Input:
 1. 1000 Phylogenetic trees (NEWICK) e.g. `RRHS_RAxML/output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.A.1`
@@ -165,6 +168,8 @@ Foreach subgenome, this procedure:
 1. Weighted phylogenetic consensus network for each subgenome (B, A, D) `G`
 2. Minimal phylogenetic consensus network for each subgenome (B, A, D) `GM` 
 3. Combined, annotated, weighted phylogenetic consensus network comprising all subgenomes (B, A, D) &#x2192; [Figure4A](RRHS_RAxML/Figure/Figure4A.png), [FigureS10](RRHS_RAxML/Figure/FigureS10.png) and Table S4 (manuscript version comprises only MST edges - full version as [tsv](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.tsv) and [xlsx](RRHS_RAxML/Consensus_network.1000_RAxML.all_genomes.annotated.xlsx))
+
+The [phylogenetic community-taxon clusters](RRHS_RAxML/Consensus_network.nodes.CommunityTaxonClusters.annotation.csv) were exported from Cytoscape. 
 
 #### Code:
 1. [RRHS_RAxML/GetNetwork.B.ipynb](RRHS_RAxML/GetNetwork.B.ipynb)
