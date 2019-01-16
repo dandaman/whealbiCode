@@ -33,7 +33,7 @@ The `angsd` generates output files with extension:
 D-statistic calculated WITHOUT Error Correction and WITHOUT Ancient Transition removal (from the ANGSD website)
 
 * `.result.TransRem.txt`
-D-statistic calculated WITHOUT Error Correction and WITH Ancient Transition removal (from the ANGSD website)
+D-statistic calculated WITHOUT Error Correction and WITH Ancient Transition removal (from the ANGSD website).
 This output was used for the subsequent analyses.
 
 
