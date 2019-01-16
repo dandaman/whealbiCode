@@ -41,8 +41,10 @@ See `allHexaClades.txt`.
 5. Filename to direct output to e.g. [allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100](allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100)
 
 #### Output:
-* [allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100](allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100)
-<!-- INSERT description of FORMAT here, @WandrilleD, please -->
+
+Prints to screen the proportion of clades which are monophyletic for the given character in the original data, as well as the number (and proportion) of sampled permutations which show a higher proportion of monophyletic clades.
+Also writes a file (e.g. [allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100](allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100) ) containing the proportions of monophyletic clades of the sampled permutations (1 floating number per line).
+
 
 #### Code:
 * [computeMonophyly.py](computeMonophyly.py)
@@ -52,6 +54,19 @@ Command example, `100` permutations for the `Growth Habit` character trait :
 ```bash
 python computeMonophyly.py allHexaClades.txt Sup_487samples.csv "Growth habit" 100 allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100
 ```
+
+prints to screen:
+
+```bash
+proportion of monophyletic :  0.31870669746
+original data shows more monophyletic clades than 100.0 ( 1.0 ) permutations.
+```
+
+and creates the file [allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100](allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100) which contains 100 floating numbers.
+
+
+
+
 
 
 #### Results
