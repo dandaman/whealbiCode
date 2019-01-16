@@ -2,8 +2,6 @@
 
 Author: [Michael Seidel](mailto:michael.seidel@helmholtz-muenchen.de)
 
-## Basis for Basis for Figures and Tables
-
 ## Workflow
 
 * [1. Mapping and variant calling](#1-mapping-and-variant-calling)
