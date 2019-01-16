@@ -1,0 +1,46 @@
+import glob
+import numpy as np
+
+def get_replicates (wildcards):
+	files=list()
+	for file in glob.glob("output/RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.*".format(genome=wildcards.genome)):
+		files.append(file)
+	return(files)
+
+
+workingdir="/nfs/pgsb/projects/evograph/analysis/paper_triae1/manuscript_whealbi/after_NatureGen_review/unimputed/RRHS_RAxML/"
+replicates=1000
+REPL=list(range(1, replicates+1))
+
+GENOMES=np.array(["B","A","D"])
+GENOMES=np.repeat(GENOMES,4,axis=0)
+
+METHODS=np.array(["MajorityRuleExtendedConsensusTree",
+				  "MajorityRuleConsensusTree",
+				  "StrictConsensusTree",
+				  "Threshold-75-ConsensusTree"])
+METHODS=np.tile(METHODS,3)
+
+METHODS_SHORT= np.array(["MRE","MR","STRICT","T_75"])
+METHODS_SHORT=np.tile(METHODS_SHORT,3)
+
+rule all:
+	input:
+		expand("RAxML_{method}.ASC_GTRGAMMA_felsenstein.{genome}.RRHS_consensus.{method_short}",zip,genome=GENOMES, method=METHODS,method_short=METHODS_SHORT)
+
+rule compute_consensus:
+	input:
+		"RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.1000.boot"
+	output:
+		"RAxML_{method}.ASC_GTRGAMMA_felsenstein.{genome}.RRHS_consensus.{method_short}"
+	shell:
+		"/home/pgsb/daniel.lang/software/standard-RAxML/raxmlHPC-PTHREADS-SSE3 -m ASC_GTRGAMMA -J {wildcards.method_short} -z {input} -n ASC_GTRGAMMA_felsenstein.{wildcards.genome}.RRHS_consensus.{wildcards.method_short} -T 20"
+
+rule concat_RRHS_replicates:
+	input:
+		get_replicates
+	output:
+		"RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.1000.boot"
+	shell:
+		"cat {input} > {output}"
+

@@ -1,0 +1,488 @@
+id,name,taxon,X__glayCluster,TaxonCluster,code
+WW-001,Triticum_aestivum.WW-001,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-002,Triticum_aestivum.WW-002,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-003,Triticum_aestivum.WW-003,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-004,Triticum_aestivum.WW-004,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-005,Triticum_aestivum.WW-005,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-006,Triticum_aestivum.WW-006,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-007,Triticum_aestivum.WW-007,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-008,Triticum_aestivum.WW-008,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-009,Triticum_aestivum.WW-009,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-010,Triticum_aestivum.WW-010,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-011,Triticum_aestivum.WW-011,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-012,Triticum_aestivum.WW-012,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-013,Triticum_aestivum.WW-013,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-014,Triticum_aestivum.WW-014,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-015,Triticum_aestivum.WW-015,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-016,Triticum_aestivum.WW-016,Triticum_aestivum,2,T. aestivum α,DEU
+WW-017,Triticum_aestivum.WW-017,Triticum_aestivum,2,T. aestivum α,DEU
+WW-018,Triticum_aestivum.WW-018,Triticum_aestivum,2,T. aestivum α,DEU
+WW-019,Triticum_aestivum.WW-019,Triticum_aestivum,3,T. aestivum γ,ITA
+WW-020,Triticum_aestivum.WW-020,Triticum_aestivum,3,T. aestivum γ,ITA
+WW-021,Triticum_aestivum.WW-021,Triticum_aestivum,3,T. aestivum γ,ITA
+WW-022,Triticum_aestivum.WW-022,Triticum_aestivum,3,T. aestivum γ,ITA
+WW-023,Triticum_aestivum.WW-023,Triticum_aestivum,7,T. aestivum β,HUN
+WW-024,Triticum_aestivum.WW-024,Triticum_aestivum,2,T. aestivum α,HUN
+WW-025,Triticum_aestivum.WW-025,Triticum_aestivum,7,T. aestivum β,HUN
+WW-026,Triticum_aestivum.WW-026,Triticum_aestivum,7,T. aestivum β,HUN
+WW-027,Triticum_aestivum.WW-027,Triticum_aestivum,7,T. aestivum β,HUN
+WW-028,Triticum_aestivum.WW-028,Triticum_aestivum,7,T. aestivum β,HUN
+WW-029,Triticum_aestivum.WW-029,Triticum_aestivum,2,T. aestivum α,JPN
+WW-030,Triticum_aestivum.WW-030,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-031,Triticum_aestivum.WW-031,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-032,Triticum_aestivum.WW-032,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-033,Triticum_aestivum.WW-033,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-034,Triticum_aestivum.WW-034,Triticum_aestivum,2,T. aestivum α,GBR
+WW-035,Triticum_aestivum.WW-035,Triticum_aestivum,2,T. aestivum α,GBR
+WW-036,Triticum_aestivum.WW-036,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-037,Triticum_aestivum.WW-037,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-038,Triticum_aestivum.WW-038,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-039,Triticum_aestivum.WW-039,Triticum_aestivum,3,T. aestivum γ,CZE
+WW-040,Triticum_aestivum.WW-040,Triticum_aestivum,3,T. aestivum γ,POL
+WW-041,Triticum_aestivum.WW-041,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-042,Triticum_aestivum.WW-042,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-043,Triticum_aestivum.WW-043,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-044,Triticum_aestivum.WW-044,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-045,Triticum_aestivum.WW-045,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-046,Triticum_aestivum.WW-046,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-047,Triticum_aestivum.WW-047,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-048,Triticum_aestivum.WW-048,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-049,Triticum_aestivum.WW-049,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-050,Triticum_aestivum.WW-050,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-052,Triticum_aestivum.WW-052,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-053,Triticum_aestivum.WW-053,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-055,Triticum_aestivum.WW-055,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-056,Triticum_aestivum.WW-056,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-057,Triticum_aestivum.WW-057,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-058,Triticum_aestivum.WW-058,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-059,Triticum_aestivum.WW-059,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-060,Triticum_aestivum.WW-060,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-061,Triticum_aestivum.WW-061,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-062,Triticum_aestivum.WW-062,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-063,Triticum_aestivum.WW-063,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-064,Triticum_aestivum.WW-064,Triticum_aestivum,2,T. aestivum α,RUS
+WW-065,Triticum_aestivum.WW-065,Triticum_aestivum,2,T. aestivum α,DEU
+WW-066,Triticum_durum_x_Aegilops_tauschii.WW-066,Triticum_durum_x_Aegilops_tauschii,2,Triticum_durum_x_Aegilops_tauschii,NA
+WW-067,Triticum_aestivum.WW-067,Triticum_aestivum,2,T. aestivum α,ITA
+WW-068,Triticum_aestivum.WW-068,Triticum_aestivum,2,T. aestivum α,FRA
+WW-069,Triticum_aestivum.WW-069,Triticum_aestivum,2,T. aestivum α,FRA
+WW-070,Triticum_aestivum.WW-070,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-071,Triticum_aestivum.WW-071,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-072,Triticum_aestivum.WW-072,Triticum_aestivum,2,T. aestivum α,BGR
+WW-073,Triticum_aestivum.WW-073,Triticum_aestivum,2,T. aestivum α,ITA
+WW-074,Triticum_aestivum.WW-074,Triticum_aestivum,2,T. aestivum α,JPN
+WW-075,Triticum_aestivum.WW-075,Triticum_aestivum,2,T. aestivum α,KOR
+WW-076,Triticum_aestivum.WW-076,Triticum_aestivum,2,T. aestivum α,PRK
+WW-077,Triticum_aestivum.WW-077,Triticum_aestivum,2,T. aestivum α,SRB
+WW-078,Triticum_aestivum.WW-078,Triticum_aestivum,2,T. aestivum α,ALB
+WW-079,Triticum_aestivum.WW-079,Triticum_aestivum,2,T. aestivum α,JPN
+WW-080,Triticum_aestivum.WW-080,Triticum_aestivum,7,T. aestivum β,USA
+WW-081,Triticum_aestivum.WW-081,Triticum_aestivum,3,T. aestivum γ,CHN
+WW-082,Triticum_aestivum.WW-082,Triticum_aestivum,2,T. aestivum α,SRB
+WW-083,Triticum_aestivum.WW-083,Triticum_aestivum,2,T. aestivum α,JPN
+WW-084,Triticum_aestivum.WW-084,Triticum_aestivum,2,T. aestivum α,CHN
+WW-085,Triticum_aestivum.WW-085,Triticum_aestivum,2,T. aestivum α,EGY
+WW-086,Triticum_aestivum.WW-086,Triticum_aestivum,2,T. aestivum α,GBR
+WW-087,Triticum_aestivum.WW-087,Triticum_aestivum,2,T. aestivum α,HUN
+WW-088,Triticum_aestivum.WW-088,Triticum_aestivum,2,T. aestivum α,HUN
+WW-089,Triticum_aestivum.WW-089,Triticum_aestivum,2,T. aestivum α,HUN
+WW-090,Triticum_aestivum.WW-090,Triticum_aestivum,2,T. aestivum α,ROU
+WW-091,Triticum_aestivum.WW-091,Triticum_aestivum,2,T. aestivum α,USA
+WW-092,Triticum_aestivum.WW-092,Triticum_aestivum,2,T. aestivum α,USA
+WW-093,Triticum_aestivum.WW-093,Triticum_aestivum,3,T. aestivum γ,USA
+WW-094,Triticum_aestivum.WW-094,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-095,Triticum_aestivum.WW-095,Triticum_aestivum,3,T. aestivum γ,CHN
+WW-096,Triticum_aestivum.WW-096,Triticum_aestivum,2,T. aestivum α,UKR
+WW-097,Triticum_aestivum.WW-097,Triticum_aestivum,2,T. aestivum α,USA
+WW-098,Triticum_aestivum.WW-098,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-099,Triticum_aestivum.WW-099,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-100,Triticum_aestivum.WW-100,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-101,Triticum_aestivum.WW-101,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-102,Triticum_aestivum.WW-102,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-103,Triticum_aestivum.WW-103,Triticum_aestivum,3,T. aestivum γ,NLD
+WW-104,Triticum_aestivum.WW-104,Triticum_aestivum,2,T. aestivum α,PAK
+WW-105,Triticum_aestivum.WW-105,Triticum_aestivum,3,T. aestivum γ,NA
+WW-106,Triticum_aestivum.WW-106,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-107,Triticum_aestivum.WW-107,Triticum_aestivum,7,T. aestivum β,NA
+WW-108,Triticum_aestivum.WW-108,Triticum_aestivum,3,T. aestivum γ,USA
+WW-109,Triticum_aestivum.WW-109,Triticum_aestivum,2,T. aestivum α,PAK
+WW-110,Triticum_aestivum.WW-110,Triticum_aestivum,3,T. aestivum γ,SWE
+WW-111,Triticum_aestivum.WW-111,Triticum_aestivum,2,T. aestivum α,ALB
+WW-112,Triticum_aestivum.WW-112,Triticum_aestivum,3,T. aestivum γ,POL
+WW-113,Triticum_aestivum.WW-113,Triticum_aestivum,3,T. aestivum γ,ZAF
+WW-114,Triticum_aestivum.WW-114,Triticum_aestivum,2,T. aestivum α,GRC
+WW-115,Triticum_aestivum.WW-115,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-116,Triticum_aestivum.WW-116,Triticum_aestivum,7,T. aestivum β,DEU
+WW-117,Triticum_aestivum.WW-117,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-118,Triticum_aestivum.WW-118,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-119,Triticum_aestivum.WW-119,Triticum_aestivum,7,T. aestivum β,RUS
+WW-120,Triticum_aestivum.WW-120,Triticum_aestivum,7,T. aestivum β,SWE
+WW-121,Triticum_aestivum.WW-121,Triticum_aestivum,7,T. aestivum β,DEU
+WW-122,Triticum_aestivum.WW-122,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-123,Triticum_aestivum.WW-123,Triticum_aestivum,3,T. aestivum γ,LVA
+WW-124,Triticum_aestivum.WW-124,Triticum_aestivum,7,T. aestivum β,SWE
+WW-125,Triticum_aestivum.WW-125,Triticum_aestivum,3,T. aestivum γ,PRT
+WW-127,Triticum_aestivum.WW-127,Triticum_aestivum,2,T. aestivum α,PRT
+WW-131,Triticum_aestivum.WW-131,Triticum_aestivum,2,T. aestivum α,PRT
+WW-132,Triticum_aestivum.WW-132,Triticum_aestivum,2,T. aestivum α,PRT
+WW-133,Triticum_aestivum.WW-133,Triticum_aestivum,7,T. aestivum β,PRT
+WW-134,Triticum_aestivum.WW-134,Triticum_aestivum,2,T. aestivum α,PRT
+WW-135,Triticum_aestivum.WW-135,Triticum_aestivum,2,T. aestivum α,PRT
+WW-136,Triticum_aestivum.WW-136,Triticum_aestivum,2,T. aestivum α,PRT
+WW-137,Triticum_aestivum.WW-137,Triticum_aestivum,2,T. aestivum α,PRT
+WW-138,Triticum_aestivum.WW-138,Triticum_aestivum,2,T. aestivum α,PRT
+WW-140,Triticum_aestivum.WW-140,Triticum_aestivum,2,T. aestivum α,PRT
+WW-143,Triticum_aestivum.WW-143,Triticum_aestivum,7,T. aestivum β,PRT
+WW-145,Triticum_aestivum.WW-145,Triticum_aestivum,3,T. aestivum γ,PRT
+WW-146,Triticum_aestivum.WW-146,Triticum_aestivum,2,T. aestivum α,PRT
+WW-147,Triticum_aestivum.WW-147,Triticum_aestivum,2,T. aestivum α,PRT
+WW-148,Triticum_aestivum.WW-148,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-149,Triticum_aestivum.WW-149,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-150,Triticum_aestivum.WW-150,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-151,Triticum_aestivum.WW-151,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-152,Triticum_aestivum.WW-152,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-153,Triticum_aestivum.WW-153,Triticum_aestivum,3,T. aestivum γ,DNK
+WW-154,Triticum_aestivum.WW-154,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-155,Triticum_aestivum.WW-155,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-156,Triticum_aestivum.WW-156,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-157,Triticum_aestivum.WW-157,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-158,Triticum_aestivum.WW-158,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-159,Triticum_aestivum.WW-159,Triticum_aestivum,2,T. aestivum α,NA
+WW-160,Triticum_aestivum.WW-160,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-161,Triticum_aestivum.WW-161,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-162,Triticum_aestivum.WW-162,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-163,Triticum_aestivum.WW-163,Triticum_aestivum,3,T. aestivum γ,DNK
+WW-164,Triticum_aestivum.WW-164,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-165,Triticum_aestivum.WW-165,Triticum_aestivum,3,T. aestivum γ,DNK
+WW-166,Triticum_aestivum.WW-166,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-167,Triticum_aestivum.WW-167,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-168,Triticum_aestivum.WW-168,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-169,Triticum_aestivum.WW-169,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-170,Triticum_aestivum.WW-170,Triticum_aestivum,2,T. aestivum α,NA
+WW-171,Triticum_durum_x_Aegilops_tauschii.WW-171,Triticum_durum_x_Aegilops_tauschii,2,Triticum_durum_x_Aegilops_tauschii,NA
+WW-172,Triticum_aestivum.WW-172,Triticum_aestivum,2,T. aestivum α,ISR
+WW-173,Triticum_aestivum.WW-173,Triticum_aestivum,2,T. aestivum α,ISR
+WW-174,Triticum_aestivum.WW-174,Triticum_aestivum,2,T. aestivum α,ISR
+WW-175,Triticum_aestivum.WW-175,Triticum_aestivum,2,T. aestivum α,ISR
+WW-176,Triticum_aestivum.WW-176,Triticum_aestivum,2,T. aestivum α,ISR
+WW-177,Triticum_aestivum.WW-177,Triticum_aestivum,2,T. aestivum α,ISR
+WW-178,Triticum_durum.WW-178,Triticum_durum,4,Triticum_durum,USA
+WW-179,Triticum_dicoccoides.WW-179,Triticum_dicoccoides,4,Triticum_dicoccoides,ISR
+WW-180,Triticum_turgidum.WW-180,Triticum_turgidum,4,Triticum_turgidum,ISR
+WW-181,Triticum_turgidum.WW-181,Triticum_turgidum,4,Triticum_turgidum,ISR
+WW-182,Triticum_turgidum.WW-182,Triticum_turgidum,4,Triticum_turgidum,ISR
+WW-183,Triticum_aestivum.WW-183,Triticum_aestivum,2,T. aestivum α,TUR
+WW-184,Triticum_aestivum.WW-184,Triticum_aestivum,2,T. aestivum α,TUR
+WW-185,Triticum_aestivum.WW-185,Triticum_aestivum,2,T. aestivum α,TUR
+WW-186,Triticum_aestivum.WW-186,Triticum_aestivum,2,T. aestivum α,TUR
+WW-187,Triticum_aestivum.WW-187,Triticum_aestivum,2,T. aestivum α,TUR
+WW-188,Triticum_aestivum.WW-188,Triticum_aestivum,2,T. aestivum α,TUR
+WW-189,Triticum_aestivum.WW-189,Triticum_aestivum,7,T. aestivum β,TUR
+WW-190,Triticum_aestivum.WW-190,Triticum_aestivum,7,T. aestivum β,TUR
+WW-191,Triticum_aestivum.WW-191,Triticum_aestivum,2,T. aestivum α,TUR
+WW-192,Triticum_aestivum.WW-192,Triticum_aestivum,2,T. aestivum α,TUR
+WW-194,Triticum_aestivum.WW-194,Triticum_aestivum,2,T. aestivum α,TUR
+WW-195,Triticum_aestivum.WW-195,Triticum_aestivum,2,T. aestivum α,TUR
+WW-196,Triticum_aestivum.WW-196,Triticum_aestivum,2,T. aestivum α,TUR
+WW-197,Triticum_aestivum.WW-197,Triticum_aestivum,2,T. aestivum α,TUR
+WW-200,Triticum_durum.WW-200,Triticum_durum,4,Triticum_durum,TUR
+WW-201,Triticum_durum.WW-201,Triticum_durum,4,Triticum_durum,TUR
+WW-202,Triticum_durum.WW-202,Triticum_durum,4,Triticum_durum,TUR
+WW-203,Triticum_durum.WW-203,Triticum_durum,4,Triticum_durum,TUR
+WW-204,Triticum_durum.WW-204,Triticum_durum,4,Triticum_durum,TUR
+WW-205,Triticum_durum.WW-205,Triticum_durum,4,Triticum_durum,TUR
+WW-207,Triticum_aestivum.WW-207,Triticum_aestivum,2,T. aestivum α,AFG
+WW-208,Triticum_aestivum.WW-208,Triticum_aestivum,2,T. aestivum α,AFG
+WW-209,Triticum_aestivum.WW-209,Triticum_aestivum,2,T. aestivum α,AFG
+WW-210,Triticum_aestivum.WW-210,Triticum_aestivum,2,T. aestivum α,AZE
+WW-211,Triticum_aestivum.WW-211,Triticum_aestivum,2,T. aestivum α,ARM
+WW-212,Triticum_aestivum.WW-212,Triticum_aestivum,2,T. aestivum α,TKM
+WW-213,Triticum_aestivum.WW-213,Triticum_aestivum,2,T. aestivum α,RUS
+WW-214,Triticum_aestivum.WW-214,Triticum_aestivum,2,T. aestivum α,AZE
+WW-215,Triticum_aestivum.WW-215,Triticum_aestivum,2,T. aestivum α,PAK
+WW-216,Triticum_aestivum.WW-216,Triticum_aestivum,2,T. aestivum α,RUS
+WW-217,Triticum_aestivum.WW-217,Triticum_aestivum,2,T. aestivum α,TKM
+WW-218,Triticum_aestivum.WW-218,Triticum_aestivum,2,T. aestivum α,PAK
+WW-219,Triticum_aestivum.WW-219,Triticum_aestivum,2,T. aestivum α,TUR
+WW-220,Triticum_aestivum.WW-220,Triticum_aestivum,2,T. aestivum α,TUR
+WW-221,Triticum_aestivum.WW-221,Triticum_aestivum,2,T. aestivum α,TUR
+WW-222,Triticum_aestivum.WW-222,Triticum_aestivum,2,T. aestivum α,AZE
+WW-223,Triticum_aestivum.WW-223,Triticum_aestivum,2,T. aestivum α,IRN
+WW-224,Triticum_aestivum.WW-224,Triticum_aestivum,2,T. aestivum α,IRN
+WW-225,Triticum_durum.WW-225,Triticum_durum,4,Triticum_durum,IRN
+WW-226,Triticum_aestivum.WW-226,Triticum_aestivum,7,T. aestivum β,ARM
+WW-227,Triticum_aestivum.WW-227,Triticum_aestivum,2,T. aestivum α,ESP
+WW-228,Triticum_aestivum.WW-228,Triticum_aestivum,2,T. aestivum α,TJK
+WW-229,Triticum_araraticum.WW-229,Triticum_araraticum,5,Triticum_araraticum,SYR
+WW-230,Triticum_araraticum.WW-230,Triticum_araraticum,5,Triticum_araraticum,IRQ
+WW-231,Triticum_araraticum.WW-231,Triticum_araraticum,5,Triticum_araraticum,TUR
+WW-232,Triticum_araraticum.WW-232,Triticum_araraticum,5,Triticum_araraticum,IRQ
+WW-233,Triticum_araraticum.WW-233,Triticum_araraticum,5,Triticum_araraticum,IRQ
+WW-234,Triticum_araraticum.WW-234,Triticum_araraticum,5,Triticum_araraticum,IRQ
+WW-235,Triticum_araraticum.WW-235,Triticum_araraticum,5,Triticum_araraticum,TUR
+WW-236,Triticum_araraticum.WW-236,Triticum_araraticum,5,Triticum_araraticum,TUR
+WW-237,Triticum_araraticum.WW-237,Triticum_araraticum,5,Triticum_araraticum,TUR
+WW-238,Triticum_araraticum.WW-238,Triticum_araraticum,5,Triticum_araraticum,TUR
+WW-239,Triticum_araraticum.WW-239,Triticum_araraticum,5,Triticum_araraticum,TUR
+WW-240,Triticum_spelta.WW-240,Triticum_spelta,2,Triticum_spelta,ESP
+WW-241,Triticum_sphaerococcum.WW-241,Triticum_sphaerococcum,2,Triticum_sphaerococcum,CHN
+WW-242,Triticum_zhukovskyi.WW-242,Triticum_zhukovskyi,5,Triticum_zhukovskyi,GEO
+WW-243,Triticum_dicoccon.WW-243,Triticum_dicoccon,2,Triticum_dicoccon,ETH
+WW-244,Triticum_dicoccon.WW-244,Triticum_dicoccon,6,Triticum_dicoccon,RUS
+WW-245,Triticum_durum.WW-245,Triticum_durum,4,Triticum_durum,FRA
+WW-246,Aegilops_tauschii.WW-246,Aegilops_tauschii,1,Aegilops_tauschii,TUR
+WW-247,Aegilops_tauschii.WW-247,Aegilops_tauschii,1,Aegilops_tauschii,TKM
+WW-248,Aegilops_tauschii.WW-248,Aegilops_tauschii,2,Aegilops_tauschii,IRN
+WW-249,Triticum_urartu.WW-249,Triticum_urartu,5,Triticum_urartu,LBN
+WW-250,Triticum_urartu.WW-250,Triticum_urartu,5,Triticum_urartu,IRN
+WW-251,Triticum_urartu.WW-251,Triticum_urartu,5,Triticum_urartu,TUR
+WW-252,Triticum_boeoticum.WW-252,Triticum_boeoticum,5,Triticum_boeoticum,TUR
+WW-253,Triticum_monococcum.WW-253,Triticum_monococcum,5,Triticum_monococcum,TUR
+WW-254,Triticum_monococcum.WW-254,Triticum_monococcum,5,Triticum_monococcum,TUR
+WW-255,Triticum_monococcum.WW-255,Triticum_monococcum,5,Triticum_monococcum,ITA
+WW-256,Triticum_timopheevii.WW-256,Triticum_timopheevii,5,Triticum_timopheevii,RUS
+WW-257,Triticum_dicoccoides.WW-257,Triticum_dicoccoides,2,Triticum_dicoccoides,LBN
+WW-258,Triticum_dicoccoides.WW-258,Triticum_dicoccoides,2,Triticum_dicoccoides,TUR
+WW-259,Triticum_dicoccoides.WW-259,Triticum_dicoccoides,2,Triticum_dicoccoides,ISR
+WW-260,Triticum_dicoccoides.WW-260,Triticum_dicoccoides,2,Triticum_dicoccoides,IRQ
+WW-261,Triticum_dicoccoides.WW-261,Triticum_dicoccoides,2,Triticum_dicoccoides,IRN
+WW-262,Triticum_durum.WW-262,Triticum_durum,2,Triticum_durum,ITA
+WW-263,Triticum_boeoticum.WW-263,Triticum_boeoticum,5,Triticum_boeoticum,LBN
+WW-264,Triticum_dicoccon.WW-264,Triticum_dicoccon,2,Triticum_dicoccon,IRN
+WW-265,Triticum_dicoccon.WW-265,Triticum_dicoccon,2,Triticum_dicoccon,ESP
+WW-266,Triticum_dicoccon.WW-266,Triticum_dicoccon,6,Triticum_dicoccon,SVK
+WW-267,Triticum_dicoccon.WW-267,Triticum_dicoccon,2,Triticum_dicoccon,ROU
+WW-268,Triticum_dicoccon.WW-268,Triticum_dicoccon,2,Triticum_dicoccon,TUR
+WW-269,Triticum_timopheevii.WW-269,Triticum_timopheevii,5,Triticum_timopheevii,RUS
+WW-271,Triticum_spelta.WW-271,Triticum_spelta,2,Triticum_spelta,DEU
+WW-272,Aegilops_speltoides.WW-272,Aegilops_speltoides,2,Aegilops_speltoides,TUR
+WW-274,Aegilops_speltoides.WW-274,Aegilops_speltoides,2,Aegilops_speltoides,TUR
+WW-276,Triticum_aestivum.WW-276,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-277,Triticum_aestivum.WW-277,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-278,Triticum_aestivum.WW-278,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-279,Triticum_aestivum.WW-279,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-280,Triticum_aestivum.WW-280,Triticum_aestivum,3,T. aestivum γ,USA
+WW-281,Triticum_aestivum.WW-281,Triticum_aestivum,2,T. aestivum α,BGR
+WW-282,Triticum_aestivum.WW-282,Triticum_aestivum,2,T. aestivum α,CHE
+WW-283,Triticum_aestivum.WW-283,Triticum_aestivum,2,T. aestivum α,KEN
+WW-284,Triticum_aestivum.WW-284,Triticum_aestivum,2,T. aestivum α,COL
+WW-285,Triticum_aestivum.WW-285,Triticum_aestivum,2,T. aestivum α,NZL
+WW-286,Triticum_aestivum.WW-286,Triticum_aestivum,2,T. aestivum α,DEU
+WW-287,Triticum_aestivum.WW-287,Triticum_aestivum,3,T. aestivum γ,AUT
+WW-288,Triticum_aestivum.WW-288,Triticum_aestivum,2,T. aestivum α,TUN
+WW-289,Triticum_aestivum.WW-289,Triticum_aestivum,2,T. aestivum α,MEX
+WW-290,Triticum_aestivum.WW-290,Triticum_aestivum,2,T. aestivum α,AUT
+WW-291,Triticum_aestivum.WW-291,Triticum_aestivum,3,T. aestivum γ,CHE
+WW-292,Triticum_aestivum.WW-292,Triticum_aestivum,2,T. aestivum α,ZAF
+WW-293,Triticum_aestivum.WW-293,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-294,Triticum_aestivum.WW-294,Triticum_aestivum,2,T. aestivum α,MEX
+WW-295,Triticum_aestivum.WW-295,Triticum_aestivum,2,T. aestivum α,CAN
+WW-296,Triticum_aestivum.WW-296,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-297,Triticum_aestivum.WW-297,Triticum_aestivum,7,T. aestivum β,BGR
+WW-298,Triticum_aestivum.WW-298,Triticum_aestivum,7,T. aestivum β,USA
+WW-299,Triticum_aestivum.WW-299,Triticum_aestivum,2,T. aestivum α,ISR
+WW-300,Triticum_aestivum.WW-300,Triticum_aestivum,2,T. aestivum α,JPN
+WW-301,Triticum_aestivum.WW-301,Triticum_aestivum,2,T. aestivum α,MEX
+WW-302,Triticum_aestivum.WW-302,Triticum_aestivum,3,T. aestivum γ,BEL
+WW-303,Triticum_aestivum.WW-303,Triticum_aestivum,2,T. aestivum α,CAN
+WW-304,Triticum_aestivum.WW-304,Triticum_aestivum,2,T. aestivum α,ESP
+WW-305,Triticum_aestivum.WW-305,Triticum_aestivum,2,T. aestivum α,FRA
+WW-306,Triticum_aestivum.WW-306,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-307,Triticum_aestivum.WW-307,Triticum_aestivum,3,T. aestivum γ,UKR
+WW-308,Triticum_aestivum.WW-308,Triticum_aestivum,2,T. aestivum α,RUS
+WW-309,Triticum_aestivum.WW-309,Triticum_aestivum,2,T. aestivum α,CHN
+WW-310,Triticum_aestivum.WW-310,Triticum_aestivum,2,T. aestivum α,CHE
+WW-311,Triticum_aestivum.WW-311,Triticum_aestivum,7,T. aestivum β,BGR
+WW-312,Triticum_aestivum.WW-312,Triticum_aestivum,2,T. aestivum α,EGY
+WW-313,Triticum_aestivum.WW-313,Triticum_aestivum,3,T. aestivum γ,NLD
+WW-314,Triticum_aestivum.WW-314,Triticum_aestivum,2,T. aestivum α,BGR
+WW-315,Triticum_aestivum.WW-315,Triticum_aestivum,2,T. aestivum α,AFG
+WW-316,Triticum_aestivum.WW-316,Triticum_aestivum,2,T. aestivum α,AUT
+WW-317,Triticum_aestivum.WW-317,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-318,Triticum_aestivum.WW-318,Triticum_aestivum,2,T. aestivum α,CHN
+WW-319,Triticum_aestivum.WW-319,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-321,Triticum_aestivum.WW-321,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-322,Triticum_aestivum.WW-322,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-323,Triticum_aestivum.WW-323,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-324,Triticum_aestivum.WW-324,Triticum_aestivum,2,T. aestivum α,AUT
+WW-325,Triticum_aestivum.WW-325,Triticum_aestivum,2,T. aestivum α,DZA
+WW-326,Triticum_aestivum.WW-326,Triticum_aestivum,2,T. aestivum α,ITA
+WW-327,Triticum_aestivum.WW-327,Triticum_aestivum,7,T. aestivum β,SRB
+WW-328,Triticum_aestivum.WW-328,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-329,Triticum_aestivum.WW-329,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-330,Triticum_aestivum.WW-330,Triticum_aestivum,2,T. aestivum α,HUN
+WW-331,Triticum_aestivum.WW-331,Triticum_aestivum,2,T. aestivum α,FIN
+WW-332,Triticum_aestivum.WW-332,Triticum_aestivum,3,T. aestivum γ,SWE
+WW-333,Triticum_aestivum.WW-333,Triticum_aestivum,7,T. aestivum β,CHE
+WW-334,Triticum_aestivum.WW-334,Triticum_aestivum,3,T. aestivum γ,POL
+WW-335,Triticum_aestivum.WW-335,Triticum_aestivum,2,T. aestivum α,USA
+WW-336,Triticum_aestivum.WW-336,Triticum_aestivum,2,T. aestivum α,TUN
+WW-337,Triticum_aestivum.WW-337,Triticum_aestivum,3,T. aestivum γ,TUN
+WW-338,Triticum_aestivum.WW-338,Triticum_aestivum,2,T. aestivum α,ESP
+WW-339,Triticum_aestivum.WW-339,Triticum_aestivum,2,T. aestivum α,ROU
+WW-340,Triticum_aestivum.WW-340,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-341,Triticum_aestivum.WW-341,Triticum_aestivum,2,T. aestivum α,TUR
+WW-342,Triticum_aestivum.WW-342,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-343,Triticum_aestivum.WW-343,Triticum_aestivum,2,T. aestivum α,BRA
+WW-344,Triticum_aestivum.WW-344,Triticum_aestivum,2,T. aestivum α,FRA
+WW-345,Triticum_aestivum.WW-345,Triticum_aestivum,3,T. aestivum γ,POL
+WW-346,Triticum_aestivum.WW-346,Triticum_aestivum,3,T. aestivum γ,CZE
+WW-347,Triticum_aestivum.WW-347,Triticum_aestivum,2,T. aestivum α,CZE
+WW-348,Triticum_aestivum.WW-348,Triticum_aestivum,3,T. aestivum γ,POL
+WW-349,Triticum_aestivum.WW-349,Triticum_aestivum,3,T. aestivum γ,CZE
+WW-350,Triticum_aestivum.WW-350,Triticum_aestivum,7,T. aestivum β,UKR
+WW-351,Triticum_aestivum.WW-351,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-352,Triticum_aestivum.WW-352,Triticum_aestivum,7,T. aestivum β,HRV
+WW-353,Triticum_aestivum.WW-353,Triticum_aestivum,2,T. aestivum α,ESP
+WW-354,Triticum_aestivum.WW-354,Triticum_aestivum,2,T. aestivum α,URY
+WW-355,Triticum_aestivum.WW-355,Triticum_aestivum,7,T. aestivum β,RUS
+WW-356,Triticum_aestivum.WW-356,Triticum_aestivum,2,T. aestivum α,ROU
+WW-357,Triticum_aestivum.WW-357,Triticum_aestivum,2,T. aestivum α,USA
+WW-358,Triticum_aestivum.WW-358,Triticum_aestivum,2,T. aestivum α,JPN
+WW-359,Triticum_aestivum.WW-359,Triticum_aestivum,2,T. aestivum α,GRC
+WW-360,Triticum_aestivum.WW-360,Triticum_aestivum,2,T. aestivum α,GRC
+WW-361,Triticum_aestivum.WW-361,Triticum_aestivum,2,T. aestivum α,AUS
+WW-362,Triticum_aestivum.WW-362,Triticum_aestivum,2,T. aestivum α,HUN
+WW-363,Triticum_aestivum.WW-363,Triticum_aestivum,2,T. aestivum α,HUN
+WW-364,Triticum_aestivum.WW-364,Triticum_aestivum,2,T. aestivum α,ITA
+WW-365,Triticum_aestivum.WW-365,Triticum_aestivum,7,T. aestivum β,RUS
+WW-366,Triticum_aestivum.WW-366,Triticum_aestivum,2,T. aestivum α,AUS
+WW-367,Triticum_aestivum.WW-367,Triticum_aestivum,2,T. aestivum α,ISR
+WW-368,Triticum_aestivum.WW-368,Triticum_aestivum,2,T. aestivum α,ESP
+WW-369,Triticum_aestivum.WW-369,Triticum_aestivum,2,T. aestivum α,FRA
+WW-371,Triticum_aestivum.WW-371,Triticum_aestivum,2,T. aestivum α,BRA
+WW-372,Triticum_aestivum.WW-372,Triticum_aestivum,3,T. aestivum γ,SYR
+WW-374,Triticum_aestivum.WW-374,Triticum_aestivum,2,T. aestivum α,FIN
+WW-375,Triticum_aestivum.WW-375,Triticum_aestivum,7,T. aestivum β,BEL
+WW-376,Triticum_aestivum.WW-376,Triticum_aestivum,2,T. aestivum α,KEN
+WW-377,Triticum_aestivum.WW-377,Triticum_aestivum,2,T. aestivum α,TUR
+WW-378,Triticum_aestivum.WW-378,Triticum_aestivum,2,T. aestivum α,SWE
+WW-379,Triticum_aestivum.WW-379,Triticum_aestivum,3,T. aestivum γ,DNK
+WW-380,Triticum_aestivum.WW-380,Triticum_aestivum,7,T. aestivum β,GBR
+WW-381,Triticum_aestivum.WW-381,Triticum_aestivum,3,T. aestivum γ,POL
+WW-382,Triticum_aestivum.WW-382,Triticum_aestivum,2,T. aestivum α,FIN
+WW-383,Triticum_aestivum.WW-383,Triticum_aestivum,2,T. aestivum α,ARG
+WW-384,Triticum_aestivum.WW-384,Triticum_aestivum,2,T. aestivum α,ISR
+WW-385,Triticum_aestivum.WW-385,Triticum_aestivum,3,T. aestivum γ,POL
+WW-386,Triticum_aestivum.WW-386,Triticum_aestivum,2,T. aestivum α,SWE
+WW-387,Triticum_aestivum.WW-387,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-388,Triticum_aestivum.WW-388,Triticum_aestivum,7,T. aestivum β,HUN
+WW-389,Triticum_aestivum.WW-389,Triticum_aestivum,3,T. aestivum γ,POL
+WW-390,Triticum_aestivum.WW-390,Triticum_aestivum,2,T. aestivum α,ESP
+WW-391,Triticum_aestivum.WW-391,Triticum_aestivum,3,T. aestivum γ,NLD
+WW-392,Triticum_aestivum.WW-392,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-393,Triticum_aestivum.WW-393,Triticum_aestivum,2,T. aestivum α,LBN
+WW-394,Triticum_aestivum.WW-394,Triticum_aestivum,2,T. aestivum α,PRT
+WW-396,Triticum_aestivum.WW-396,Triticum_aestivum,2,T. aestivum α,ISR
+WW-397,Triticum_aestivum.WW-397,Triticum_aestivum,2,T. aestivum α,NPL
+WW-398,Triticum_aestivum.WW-398,Triticum_aestivum,2,T. aestivum α,CHN
+WW-399,Triticum_aestivum.WW-399,Triticum_aestivum,2,T. aestivum α,NZL
+WW-400,Triticum_aestivum.WW-400,Triticum_aestivum,2,T. aestivum α,SYR
+WW-401,Triticum_aestivum.WW-401,Triticum_aestivum,2,T. aestivum α,PRT
+WW-402,Triticum_aestivum.WW-402,Triticum_aestivum,2,T. aestivum α,PRT
+WW-403,Triticum_aestivum.WW-403,Triticum_aestivum,2,T. aestivum α,UKR
+WW-404,Triticum_aestivum.WW-404,Triticum_aestivum,7,T. aestivum β,BGR
+WW-405,Triticum_aestivum.WW-405,Triticum_aestivum,2,T. aestivum α,DEU
+WW-406,Triticum_aestivum.WW-406,Triticum_aestivum,2,T. aestivum α,ITA
+WW-407,Triticum_aestivum.WW-407,Triticum_aestivum,7,T. aestivum β,RUS
+WW-408,Triticum_aestivum.WW-408,Triticum_aestivum,2,T. aestivum α,ESP
+WW-409,Triticum_aestivum.WW-409,Triticum_aestivum,3,T. aestivum γ,AUT
+WW-410,Triticum_aestivum.WW-410,Triticum_aestivum,2,T. aestivum α,ARG
+WW-411,Triticum_aestivum.WW-411,Triticum_aestivum,2,T. aestivum α,PRT
+WW-412,Triticum_aestivum.WW-412,Triticum_aestivum,2,T. aestivum α,NLD
+WW-413,Triticum_aestivum.WW-413,Triticum_aestivum,2,T. aestivum α,CAN
+WW-414,Triticum_aestivum.WW-414,Triticum_aestivum,2,T. aestivum α,NPL
+WW-415,Triticum_aestivum.WW-415,Triticum_aestivum,7,T. aestivum β,CHE
+WW-416,Triticum_aestivum.WW-416,Triticum_aestivum,2,T. aestivum α,ZWE
+WW-417,Triticum_aestivum.WW-417,Triticum_aestivum,2,T. aestivum α,KOR
+WW-419,Triticum_aestivum.WW-419,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-420,Triticum_aestivum.WW-420,Triticum_aestivum,2,T. aestivum α,DZA
+WW-421,Triticum_aestivum.WW-421,Triticum_aestivum,2,T. aestivum α,FIN
+WW-422,Triticum_aestivum.WW-422,Triticum_aestivum,2,T. aestivum α,ESP
+WW-423,Triticum_aestivum.WW-423,Triticum_aestivum,2,T. aestivum α,ESP
+WW-424,Triticum_aestivum.WW-424,Triticum_aestivum,3,T. aestivum γ,ROU
+WW-425,Triticum_aestivum.WW-425,Triticum_aestivum,7,T. aestivum β,FIN
+WW-426,Triticum_aestivum.WW-426,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-427,Triticum_aestivum.WW-427,Triticum_aestivum,2,T. aestivum α,NZL
+WW-428,Triticum_aestivum.WW-428,Triticum_aestivum,2,T. aestivum α,CAN
+WW-429,Triticum_aestivum.WW-429,Triticum_aestivum,2,T. aestivum α,CAN
+WW-430,Triticum_aestivum.WW-430,Triticum_aestivum,2,T. aestivum α,ESP
+WW-431,Triticum_aestivum.WW-431,Triticum_aestivum,2,T. aestivum α,SYR
+WW-432,Triticum_aestivum.WW-432,Triticum_aestivum,2,T. aestivum α,SYR
+WW-433,Triticum_aestivum.WW-433,Triticum_aestivum,2,T. aestivum α,NER
+WW-434,Triticum_aestivum.WW-434,Triticum_aestivum,3,T. aestivum γ,DEU
+WW-435,Triticum_aestivum.WW-435,Triticum_aestivum,2,T. aestivum α,ZWE
+WW-436,Triticum_aestivum.WW-436,Triticum_aestivum,3,T. aestivum γ,FIN
+WW-437,Triticum_aestivum.WW-437,Triticum_aestivum,3,T. aestivum γ,AUT
+WW-438,Triticum_aestivum.WW-438,Triticum_aestivum,7,T. aestivum β,BEL
+WW-439,Triticum_aestivum.WW-439,Triticum_aestivum,7,T. aestivum β,CZE
+WW-440,Triticum_aestivum.WW-440,Triticum_aestivum,7,T. aestivum β,DEU
+WW-441,Triticum_aestivum.WW-441,Triticum_aestivum,7,T. aestivum β,HUN
+WW-442,Triticum_aestivum.WW-442,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-444,Triticum_aestivum.WW-444,Triticum_aestivum,2,T. aestivum α,TUR
+WW-445,Triticum_aestivum.WW-445,Triticum_aestivum,2,T. aestivum α,TUR
+WW-446,Triticum_aestivum.WW-446,Triticum_aestivum,2,T. aestivum α,NLD
+WW-447,Triticum_aestivum.WW-447,Triticum_aestivum,7,T. aestivum β,CZE
+WW-448,Triticum_aestivum.WW-448,Triticum_aestivum,3,T. aestivum γ,CZE
+WW-449,Triticum_aestivum.WW-449,Triticum_aestivum,7,T. aestivum β,UKR
+WW-450,Triticum_aestivum.WW-450,Triticum_aestivum,3,T. aestivum γ,GBR
+WW-451,Triticum_aestivum.WW-451,Triticum_aestivum,3,T. aestivum γ,NLD
+WW-452,Triticum_aestivum.WW-452,Triticum_aestivum,2,T. aestivum α,ARM
+WW-453,Triticum_aestivum.WW-453,Triticum_aestivum,2,T. aestivum α,TUR
+WW-454,Triticum_aestivum.WW-454,Triticum_aestivum,2,T. aestivum α,TUR
+WW-455,Triticum_aestivum.WW-455,Triticum_aestivum,2,T. aestivum α,MAR
+WW-456,Triticum_aestivum.WW-456,Triticum_aestivum,2,T. aestivum α,ETH
+WW-457,Triticum_aestivum.WW-457,Triticum_aestivum,2,T. aestivum α,IND
+WW-458,Triticum_aestivum.WW-458,Triticum_aestivum,2,T. aestivum α,IND
+WW-459,Triticum_aestivum.WW-459,Triticum_aestivum,2,T. aestivum α,RUS
+WW-460,Triticum_aestivum.WW-460,Triticum_aestivum,2,T. aestivum α,TJK
+WW-461,Triticum_aestivum.WW-461,Triticum_aestivum,2,T. aestivum α,TJK
+WW-462,Triticum_aestivum.WW-462,Triticum_aestivum,2,T. aestivum α,GEO
+WW-463,Triticum_aestivum.WW-463,Triticum_aestivum,2,T. aestivum α,PAK
+WW-464,Triticum_aestivum.WW-464,Triticum_aestivum,2,T. aestivum α,RUS
+WW-465,Triticum_aestivum.WW-465,Triticum_aestivum,2,T. aestivum α,RUS
+WW-467,Triticum_aestivum.WW-467,Triticum_aestivum,2,T. aestivum α,TUR
+WW-468,Triticum_aestivum.WW-468,Triticum_aestivum,3,T. aestivum γ,CHE
+WW-469,Triticum_aestivum.WW-469,Triticum_aestivum,2,T. aestivum α,PAK
+WW-470,Triticum_aestivum.WW-470,Triticum_aestivum,7,T. aestivum β,RUS
+WW-471,Triticum_aestivum.WW-471,Triticum_aestivum,2,T. aestivum α,ISR
+WW-472,Triticum_aestivum.WW-472,Triticum_aestivum,2,T. aestivum α,ISR
+WW-473,Triticum_aestivum.WW-473,Triticum_aestivum,2,T. aestivum α,TKM
+WW-474,Triticum_aestivum.WW-474,Triticum_aestivum,2,T. aestivum α,AZE
+WW-475,Triticum_aestivum.WW-475,Triticum_aestivum,2,T. aestivum α,ITA
+WW-476,Triticum_aestivum.WW-476,Triticum_aestivum,2,T. aestivum α,CHN
+WW-477,Triticum_aestivum.WW-477,Triticum_aestivum,2,T. aestivum α,NPL
+WW-478,Triticum_aestivum.WW-478,Triticum_aestivum,2,T. aestivum α,MEX
+WW-479,Triticum_aestivum.WW-479,Triticum_aestivum,2,T. aestivum α,NPL
+WW-480,Triticum_aestivum.WW-480,Triticum_aestivum,2,T. aestivum α,NPL
+WW-481,Triticum_aestivum.WW-481,Triticum_aestivum,2,T. aestivum α,USA
+WW-482,Triticum_aestivum.WW-482,Triticum_aestivum,3,T. aestivum γ,AUS
+WW-483,Triticum_aestivum.WW-483,Triticum_aestivum,2,T. aestivum α,NPL
+WW-484,Triticum_aestivum.WW-484,Triticum_aestivum,2,T. aestivum α,MEX
+WW-485,Triticum_aestivum.WW-485,Triticum_aestivum,2,T. aestivum α,JPN
+WW-486,Triticum_durum_x_Aegilops_tauschii.WW-486,Triticum_durum_x_Aegilops_tauschii,2,Triticum_durum_x_Aegilops_tauschii,MEX
+WW-487,Triticum_aestivum.WW-487,Triticum_aestivum,2,T. aestivum α,IND
+WW-488,Triticum_aestivum.WW-488,Triticum_aestivum,2,T. aestivum α,CHN
+WW-489,Triticum_aestivum.WW-489,Triticum_aestivum,2,T. aestivum α,CHN
+WW-490,Triticum_aestivum.WW-490,Triticum_aestivum,2,T. aestivum α,TJK
+WW-492,Triticum_aestivum.WW-492,Triticum_aestivum,3,T. aestivum γ,FRA
+WW-493,Triticum_aestivum.WW-493,Triticum_aestivum,2,T. aestivum α,MAR
+WW-494,Triticum_aestivum.WW-494,Triticum_aestivum,2,T. aestivum α,LBN
+WW-495,Triticum_aestivum.WW-495,Triticum_aestivum,2,T. aestivum α,IND
+WW-496,Triticum_aestivum.WW-496,Triticum_aestivum,2,T. aestivum α,IND
+WW-497,Triticum_aestivum.WW-497,Triticum_aestivum,2,T. aestivum α,IND
+WW-498,Triticum_aestivum.WW-498,Triticum_aestivum,2,T. aestivum α,GRC
+WW-499,Triticum_aestivum.WW-499,Triticum_aestivum,2,T. aestivum α,CHN
+WW-500,Triticum_aestivum.WW-500,Triticum_aestivum,2,T. aestivum α,GBR
+WW-501,Triticum_aestivum.WW-501,Triticum_aestivum,2,T. aestivum α,PAK
+WW-502,Triticum_aestivum.WW-502,Triticum_aestivum,2,T. aestivum α,CHN
+WW-503,Triticum_aestivum.WW-503,Triticum_aestivum,2,T. aestivum α,AFG
+WW-504,Triticum_aestivum.WW-504,Triticum_aestivum,2,T. aestivum α,POL
+WW-505,Triticum_aestivum.WW-505,Triticum_aestivum,2,T. aestivum α,GRC
+WW-506,Triticum_aestivum.WW-506,Triticum_aestivum,2,T. aestivum α,GRC
+WW-507,Triticum_aestivum.WW-507,Triticum_aestivum,7,T. aestivum β,TUR
+WW-508,Triticum_aestivum.WW-508,Triticum_aestivum,2,T. aestivum α,IND
+WW-509,Triticum_aestivum.WW-509,Triticum_aestivum,2,T. aestivum α,RUS
+WW-510,Triticum_aestivum.WW-510,Triticum_aestivum,2,T. aestivum α,DZA
+WW-511,Triticum_aestivum.WW-511,Triticum_aestivum,2,T. aestivum α,AFG
+WW-512,Triticum_aestivum.WW-512,Triticum_aestivum,2,T. aestivum α,ITA

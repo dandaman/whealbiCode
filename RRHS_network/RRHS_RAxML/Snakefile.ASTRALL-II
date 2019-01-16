@@ -1,0 +1,13 @@
+GENOMES=["A","B","D"]
+
+rule all:
+	input:
+		expand("RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.astral.quartets.nh",genome=GENOMES)
+
+rule astral:
+	input:
+		"RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.1000.boot"
+	output:
+		"RAxML_bestTree.ASC_GTRGAMMA_felsenstein.{genome}.astral.quartets.nh"
+	shell:
+		"java -jar ~/software/ASTRAL/astral.4.10.12.jar -t 1 -i {input} -o {output}"
