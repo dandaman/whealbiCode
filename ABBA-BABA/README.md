@@ -16,9 +16,9 @@ The script expects one mandatory parameter to choose the grouping by `chromosome
 Additional files are required by `angsd`, please refer to the documentation of [ANGSD](http://www.popgen.dk/angsd/index.php/Abbababa) for more details. Samples for both files are included in this repository for your reference.
 
 ## Input:
-* [bamfiles.list](bamfiles.list)
+* [bamfiles.list](bamfiles.list.sample)
   A list of all samples that should be included in the analysis
-* [sizeFile.size](sizeFile.size)
+* [sizeFile.size](sizeFile.size.sample)
   The number of lines in the bamfile that form one group, e.g. lines 1-5 are group A, lines 6-10 group B and lines 11-20 group C, then the sizes are 5, 5 and 10.
 ## Output:
 <!--- INSERT description here of output here @realtkd -->
