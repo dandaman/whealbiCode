@@ -25,7 +25,7 @@ Code:
 prints to screen the list of clades in the unrooted tree.
 One line per clade, leaf names separated by ";".
 
-See `allHexaClades.txt`.
+See [allHexaClades.txt](allHexaClades.txt).
 
 
 ### 2. Determining the most structuring character, using proportion of monophyletic clades and permutation tests
@@ -38,12 +38,12 @@ See `allHexaClades.txt`.
 	* `Group`
 	* `Continent`
 4. Number of permutations
-5. Filename to direct output to e.g. [allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100](allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100)
+5. Filename to direct output to e.g. `allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100`
 
 #### Output:
 
 Prints to screen the proportion of clades which are monophyletic for the given character in the original data, as well as the number (and proportion) of sampled permutations which show a higher proportion of monophyletic clades.
-Also writes a file (e.g. [allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100](allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100) ) containing the proportions of monophyletic clades of the sampled permutations (1 floating number per line).
+Also writes a file (e.g. `allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100`) containing the proportions of monophyletic clades of the sampled permutations (1 floating number per line).
 
 
 #### Code:
@@ -57,16 +57,12 @@ python computeMonophyly.py allHexaClades.txt Sup_487samples.csv "Growth habit" 1
 
 prints to screen:
 
-```bash
+```
 proportion of monophyletic :  0.31870669746
 original data shows more monophyletic clades than 100.0 ( 1.0 ) permutations.
 ```
 
-and creates the file [allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100](allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100) which contains 100 floating numbers.
-
-
-
-
+and creates a file named `allHexaClades.txt.Growth_habit.PermutsPmonophyletic.100` which contains 100 floating numbers.
 
 
 #### Results
@@ -84,5 +80,3 @@ We performed 10 000 000 permutations each for each character.
 	no permutation with a proportion > 0.322748267898 -> p-value < 10-7
 * `allHexaClades.txt.Continent.PermutsPmonophyletic.txt.10M`
 	no permutation with a proportion > 0.384526558891 -> p-value < 10-7
-
-
